@@ -16,4 +16,4 @@ out=''
 for name,value in [('HUB_CATALOG',data),('HUB_SECTIONS',sections),('HUB_REPOSITORIES',repos)]:
     out+='const '+name+' = '+json.dumps(value,ensure_ascii=False,indent=2)+';\n'
 (root/'docs/catalog.js').write_text(out,encoding='utf-8')
-print(f'Validated {len(data)} resources, {len(sections)} categories and {len(repos)} repositories.')
+print(f'Validated {len(data)} resources, {len(sections)} categories, {sum(r["kind"]!="embedded" for r in repos)} connected repositories and {sum(r["kind"]=="embedded" for r in repos)} Hub directories.')
