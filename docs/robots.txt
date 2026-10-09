@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ssrobotic.github.io/humanoid-robot-hub/sitemap.xml

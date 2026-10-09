@@ -1,0 +1,136 @@
+[
+  {
+    "id": "Open-X-Humanoid-TienKung-Lab",
+    "key": "Open-X-Humanoid/TienKung-Lab",
+    "title": "TienKung Lab",
+    "description": "Isaac Lab workflows for legged-robot learning, including TienKung.",
+    "descriptionTh": "เวิร์กโฟลว์ Isaac Lab สำหรับเรียนรู้การเคลื่อนไหวของหุ่นยนต์ รวมถึง TienKung",
+    "categories": [
+      "simulation",
+      "research"
+    ],
+    "tags": [
+      "TienKung",
+      "RL",
+      "Isaac Lab"
+    ],
+    "source": "upstream",
+    "owner": "Open-X-Humanoid",
+    "url": "https://github.com/Open-X-Humanoid/TienKung-Lab",
+    "upstream": "https://github.com/Open-X-Humanoid/TienKung-Lab",
+    "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "LeCAR-Lab-human2humanoid",
+    "key": "LeCAR-Lab/human2humanoid",
+    "title": "Human2Humanoid / OmniH2O",
+    "description": "Human-to-humanoid whole-body teleoperation and learning research.",
+    "descriptionTh": "งานวิจัย Teleoperation และ Learning ทั้งร่างกายจากมนุษย์สู่ Humanoid",
+    "categories": [
+      "teleoperation",
+      "research"
+    ],
+    "tags": [
+      "Humanoid",
+      "Teleoperation",
+      "Whole-body"
+    ],
+    "source": "upstream",
+    "owner": "LeCAR-Lab",
+    "url": "https://github.com/LeCAR-Lab/human2humanoid",
+    "upstream": "https://github.com/LeCAR-Lab/human2humanoid",
+    "license": "See project notices",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "Open-X-Humanoid-XR-1",
+    "key": "Open-X-Humanoid/XR-1",
+    "title": "XR-1",
+    "description": "Research code for vision-language-action models and unified vision-motion representations.",
+    "descriptionTh": "โค้ดงานวิจัย VLA และการแทนข้อมูล Vision-Motion แบบรวม",
+    "categories": [
+      "vla",
+      "research"
+    ],
+    "tags": [
+      "VLA",
+      "Embodied AI",
+      "Research"
+    ],
+    "source": "upstream",
+    "owner": "Open-X-Humanoid",
+    "url": "https://github.com/Open-X-Humanoid/XR-1",
+    "upstream": "https://github.com/Open-X-Humanoid/XR-1",
+    "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "Open-X-Humanoid-HEX",
+    "key": "Open-X-Humanoid/HEX",
+    "title": "HEX",
+    "description": "Whole-body vision-language-action research for full-sized humanoids.",
+    "descriptionTh": "งานวิจัย VLA สำหรับการเคลื่อนไหวทั้งร่างกายของ Humanoid",
+    "categories": [
+      "vla",
+      "research"
+    ],
+    "tags": [
+      "Humanoid",
+      "VLA",
+      "Whole-body"
+    ],
+    "source": "upstream",
+    "owner": "Open-X-Humanoid",
+    "url": "https://github.com/Open-X-Humanoid/HEX",
+    "upstream": "https://github.com/Open-X-Humanoid/HEX",
+    "license": "See project notices",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "Open-X-Humanoid-x-humanoid-vla-simulation-benchmark",
+    "key": "Open-X-Humanoid/x-humanoid-vla-simulation-benchmark",
+    "title": "X-Humanoid VLA Benchmark",
+    "description": "Isaac Sim resources for evaluating vision-language-action policies.",
+    "descriptionTh": "แหล่งข้อมูล Isaac Sim สำหรับประเมิน Policy แบบ VLA",
+    "categories": [
+      "simulation",
+      "vla",
+      "research"
+    ],
+    "tags": [
+      "VLA",
+      "Benchmark",
+      "Isaac Sim"
+    ],
+    "source": "upstream",
+    "owner": "Open-X-Humanoid",
+    "url": "https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark",
+    "upstream": "https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark",
+    "license": "See project notices",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "ARISE-Initiative-robomimic",
+    "key": "ARISE-Initiative/robomimic",
+    "title": "robomimic",
+    "description": "Modular tools for learning robotic manipulation from demonstrations.",
+    "descriptionTh": "เครื่องมือแบบโมดูลสำหรับเรียนรู้ Manipulation จาก Demonstration",
+    "categories": [
+      "learning",
+      "manipulation",
+      "research"
+    ],
+    "tags": [
+      "Imitation learning",
+      "Demonstrations",
+      "Manipulation"
+    ],
+    "source": "upstream",
+    "owner": "ARISE-Initiative",
+    "url": "https://github.com/ARISE-Initiative/robomimic",
+    "upstream": "https://github.com/ARISE-Initiative/robomimic",
+    "license": "MIT",
+    "verifiedOn": "2026-10-10"
+  }
+]

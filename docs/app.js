@@ -1,6 +1,6 @@
 'use strict';
 const state={query:'',category:'all',source:'all',sort:'curated',lang:localStorage.getItem('hub-lang')||'en'};
-const categories=[['all','All resources','ทั้งหมด'],['models','Models & URDF','โมเดล & URDF'],['control','SDK & Control','SDK & ควบคุม'],['ros','ROS & Integration','ROS & เชื่อมต่อ'],['simulation','Simulation','จำลอง'],['learning','Robot Learning','Robot Learning'],['vision','Vision & Manipulation','Vision & แขนกล']];
+const categories=[['all','🌐 All resources','🌐 ทั้งหมด'],...HUB_SECTIONS.map(s=>[s.id,s.emoji+' '+s.title,s.emoji+' '+s.titleTh])];
 const $=id=>document.getElementById(id);
 function el(tag,cls,text){const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;}
 function link(text,url){const a=el('a','',text);a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a;}
@@ -27,6 +27,8 @@ function language(){
  $('filters').replaceChildren();categories.forEach(c=>{const b=el('button','',c[state.lang==='th'?2:1]);b.type='button';b.dataset.category=c[0];b.addEventListener('click',()=>{state.category=c[0];render();});$('filters').append(b);});
  const sources=state.lang==='th'?['ทุกแหล่งข้อมูล','คลัง SSRobotic','โครงการต้นฉบับ']:['All sources','SSRobotic collections','Original projects'];Array.from($('source').options).forEach((o,i)=>o.textContent=sources[i]);
  const sorts=state.lang==='th'?['ลำดับแนะนำ','ชื่อ A–Z']:['Curated order','Name A–Z'];Array.from($('sort').options).forEach((o,i)=>o.textContent=sorts[i]);
+ $('repo-grid').replaceChildren();
+ for(const r of HUB_REPOSITORIES){const a=el('a','repo-tile');a.href=r.url;a.target='_blank';a.rel='noopener noreferrer';a.append(el('h3','',r.emoji+' '+(state.lang==='th'?r.titleTh:r.title)),el('p','',state.lang==='th'?r.descriptionTh:r.description),el('span','repo-kind',r.kind==='code'?'🛠️ CODE COLLECTION ↗':r.kind==='embedded'?'📂 HUB DIRECTORY ↗':'🗂️ RESOURCE DIRECTORY ↗'));$('repo-grid').append(a);}
  render();
 }
 $('search').addEventListener('input',e=>{state.query=e.target.value;render();});$('source').addEventListener('change',e=>{state.source=e.target.value;render();});$('sort').addEventListener('change',e=>{state.sort=e.target.value;render();});

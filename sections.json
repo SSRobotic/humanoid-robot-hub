@@ -1,0 +1,110 @@
+[
+  {
+    "id": "models",
+    "repo": "humanoid-models",
+    "emoji": "🦾",
+    "title": "Models & URDF",
+    "titleTh": "โมเดลและ URDF",
+    "about": "Robot descriptions, URDF / MJCF assets and model inspection resources.",
+    "aboutTh": "Robot Description, URDF / MJCF และเครื่องมือสำรวจโมเดลหุ่นยนต์"
+  },
+  {
+    "id": "simulation",
+    "repo": "humanoid-simulation",
+    "emoji": "🌐",
+    "title": "Simulation",
+    "titleTh": "ระบบจำลอง",
+    "about": "Physics engines, simulator integrations and humanoid simulation workflows.",
+    "aboutTh": "เอนจินฟิสิกส์และระบบจำลองสำหรับงาน Humanoid"
+  },
+  {
+    "id": "learning",
+    "repo": "humanoid-robot-learning",
+    "emoji": "🧠",
+    "title": "Robot Learning",
+    "titleTh": "การเรียนรู้ของหุ่นยนต์",
+    "about": "Reinforcement learning, imitation learning and humanoid training frameworks.",
+    "aboutTh": "Reinforcement Learning, Imitation Learning และเฟรมเวิร์กฝึกหุ่นยนต์"
+  },
+  {
+    "id": "control",
+    "repo": "humanoid-whole-body-control",
+    "emoji": "⚙️",
+    "title": "Whole-body Control",
+    "titleTh": "ควบคุมทั้งร่างกาย",
+    "about": "Dynamics, kinematics, locomotion and whole-body control references.",
+    "aboutTh": "Dynamics, Kinematics, Locomotion และการควบคุมทั้งร่างกาย"
+  },
+  {
+    "id": "vision",
+    "repo": "humanoid-vision",
+    "emoji": "👁️",
+    "title": "Vision & 3D Perception",
+    "titleTh": "การมองเห็นและข้อมูล 3D",
+    "about": "Camera SDKs, computer vision, point clouds and perception resources.",
+    "aboutTh": "Camera SDK, Computer Vision, Point Cloud และ Perception"
+  },
+  {
+    "id": "manipulation",
+    "repo": "humanoid-manipulation",
+    "emoji": "🤏",
+    "title": "Manipulation & Planning",
+    "titleTh": "จับวัตถุและวางแผน",
+    "about": "Motion planning, arm integration, grasping and demonstration-based manipulation.",
+    "aboutTh": "Motion Planning, แขนกล, Grasping และการเรียนรู้จากตัวอย่าง"
+  },
+  {
+    "id": "teleoperation",
+    "repo": "humanoid-teleoperation",
+    "emoji": "🎮",
+    "title": "Teleoperation",
+    "titleTh": "ควบคุมระยะไกล",
+    "about": "XR teleoperation, human-to-humanoid control and demonstration collection.",
+    "aboutTh": "XR Teleoperation, Human-to-Humanoid และการเก็บ Demonstration"
+  },
+  {
+    "id": "datasets",
+    "repo": "humanoid-datasets",
+    "emoji": "💾",
+    "title": "Datasets & Demonstrations",
+    "titleTh": "ข้อมูลและ Demonstration",
+    "about": "Robotics dataset catalogs, data formats and training data utilities.",
+    "aboutTh": "คลัง Dataset หุ่นยนต์ รูปแบบข้อมูล และเครื่องมือจัดเตรียมข้อมูลฝึก"
+  },
+  {
+    "id": "vla",
+    "repo": "humanoid-vla",
+    "emoji": "💬",
+    "title": "Vision-Language-Action",
+    "titleTh": "โมเดล Vision-Language-Action",
+    "about": "VLA model projects, manipulation policies and humanoid embodied AI references.",
+    "aboutTh": "โครงการ VLA, Policy สำหรับ Manipulation และ Embodied AI"
+  },
+  {
+    "id": "hardware",
+    "repo": "humanoid-hardware-sdks",
+    "emoji": "🔌",
+    "title": "Hardware & SDKs",
+    "titleTh": "ฮาร์ดแวร์และ SDK",
+    "about": "Vendor SDKs, communication interfaces and platform-specific humanoid software.",
+    "aboutTh": "SDK ผู้ผลิต ระบบสื่อสาร และซอฟต์แวร์เฉพาะแพลตฟอร์ม"
+  },
+  {
+    "id": "ros",
+    "repo": "humanoid-ros2",
+    "emoji": "📡",
+    "title": "ROS & Integration",
+    "titleTh": "ROS และการเชื่อมต่อ",
+    "about": "ROS / ROS 2 integration, controllers, middleware and planning tools.",
+    "aboutTh": "ROS / ROS 2, Controller, Middleware และเครื่องมือ Planning"
+  },
+  {
+    "id": "research",
+    "repo": "humanoid-research",
+    "emoji": "📚",
+    "title": "Research & Benchmarks",
+    "titleTh": "งานวิจัยและ Benchmark",
+    "about": "Research code, published project references and embodied AI evaluation tools.",
+    "aboutTh": "โค้ดงานวิจัย แหล่งอ้างอิงโครงการ และการประเมิน Embodied AI"
+  }
+]

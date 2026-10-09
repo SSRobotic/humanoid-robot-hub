@@ -1,0 +1,111 @@
+[
+  {
+    "id": "collections-unitree-ros2",
+    "title": "Unitree ROS 2",
+    "categories": [
+      "ros"
+    ],
+    "tags": [
+      "G1",
+      "H1",
+      "ROS 2",
+      "DDS"
+    ],
+    "description": "ROS 2 / DDS examples and message interfaces, including G1 / H1 examples.",
+    "descriptionTh": "เชื่อมต่อ ROS 2 / DDS พร้อมตัวอย่าง G1 และ H1 รวมถึงหุ่นยนต์สี่ขา",
+    "source": "collection",
+    "owner": "unitreerobotics",
+    "url": "https://github.com/SSRobotic/unitree-ros2",
+    "upstream": "https://github.com/unitreerobotics/unitree_ros2",
+    "verifiedOn": "2026-10-10",
+    "key": "unitree-ros2",
+    "collectionPath": "collections/unitree/ros2"
+  },
+  {
+    "id": "collections-dobot-atom-ros2",
+    "title": "DOBOT Atom ROS 2",
+    "categories": [
+      "manipulation",
+      "ros"
+    ],
+    "tags": [
+      "Atom",
+      "ROS 2",
+      "Gazebo"
+    ],
+    "description": "DOBOT Atom ROS 2 model, simulation and integration collection.",
+    "descriptionTh": "ชุด ROS 2 พร้อมโมเดล Simulation และตัวอย่างควบคุม DOBOT Atom",
+    "source": "collection",
+    "owner": "Dobot-Arm",
+    "url": "https://github.com/SSRobotic/dobot-atom-ros2",
+    "upstream": "https://github.com/Dobot-Arm/dobot_atom_ros2",
+    "verifiedOn": "2026-10-10",
+    "key": "dobot-atom-ros2",
+    "collectionPath": "collections/dobot/atom-ros2"
+  },
+  {
+    "id": "ros-controls-ros2_control",
+    "title": "ros2_control",
+    "categories": [
+      "ros"
+    ],
+    "tags": [
+      "ROS 2",
+      "Controllers",
+      "Hardware interfaces"
+    ],
+    "description": "ROS 2 hardware abstraction and controller framework for integrating robot hardware and simulation.",
+    "descriptionTh": "เฟรมเวิร์ก Hardware Interface และ Controller สำหรับเชื่อมฮาร์ดแวร์หุ่นยนต์และ Simulation เข้ากับ ROS 2",
+    "source": "upstream",
+    "owner": "ros-controls",
+    "url": "https://github.com/ros-controls/ros2_control",
+    "upstream": "https://github.com/ros-controls/ros2_control",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10",
+    "key": "ros-controls/ros2_control"
+  },
+  {
+    "id": "moveit-moveit2",
+    "key": "moveit/moveit2",
+    "title": "MoveIt 2",
+    "description": "ROS 2 motion-planning and manipulation framework.",
+    "descriptionTh": "เฟรมเวิร์ก Motion Planning และ Manipulation สำหรับ ROS 2",
+    "categories": [
+      "manipulation",
+      "ros"
+    ],
+    "tags": [
+      "ROS 2",
+      "Motion planning",
+      "Manipulation"
+    ],
+    "source": "upstream",
+    "owner": "moveit",
+    "url": "https://github.com/moveit/moveit2",
+    "upstream": "https://github.com/moveit/moveit2",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "Open-X-Humanoid-TienKung_ROS",
+    "key": "Open-X-Humanoid/TienKung_ROS",
+    "title": "TienKung ROS",
+    "description": "TienKung ROS software and hardware-control modules.",
+    "descriptionTh": "ซอฟต์แวร์ ROS และโมดูลเชื่อมฮาร์ดแวร์ของ TienKung",
+    "categories": [
+      "control",
+      "ros"
+    ],
+    "tags": [
+      "TienKung",
+      "ROS",
+      "Control"
+    ],
+    "source": "upstream",
+    "owner": "Open-X-Humanoid",
+    "url": "https://github.com/Open-X-Humanoid/TienKung_ROS",
+    "upstream": "https://github.com/Open-X-Humanoid/TienKung_ROS",
+    "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10"
+  }
+]

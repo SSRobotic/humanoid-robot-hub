@@ -3,7 +3,7 @@ MIT License
 Copyright (c) 2026 SSRobotic
 
 Scope: this license covers original hub interface code in docs/ (excluding
-third-party assets), scripts/build_catalog.py and original editorial content
+third-party assets and the user-supplied SSRobotics logo), scripts/build_catalog.py and original editorial content
 created for this hub. It does NOT cover the imported collections/ tree,
 third-party code, models, binaries, datasets or external linked resources.
 Their respective source licenses and notices apply.

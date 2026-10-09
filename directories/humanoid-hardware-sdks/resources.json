@@ -1,0 +1,131 @@
+[
+  {
+    "id": "unitreerobotics-unitree_sdk2",
+    "title": "Unitree SDK2",
+    "categories": [
+      "hardware"
+    ],
+    "tags": [
+      "G1",
+      "H1",
+      "C++",
+      "DDS"
+    ],
+    "description": "Modern Unitree communication and control SDK. Check examples and firmware requirements for your robot.",
+    "descriptionTh": "SDK สำหรับการสื่อสารและควบคุม Unitree รุ่นใหม่ ตรวจตัวอย่างและเฟิร์มแวร์ให้ตรงกับหุ่นยนต์",
+    "source": "upstream",
+    "owner": "unitreerobotics",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "upstream": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10",
+    "key": "unitreerobotics/unitree_sdk2"
+  },
+  {
+    "id": "unitreerobotics-unitree_sdk2_python",
+    "title": "Unitree SDK2 Python",
+    "categories": [
+      "hardware"
+    ],
+    "tags": [
+      "G1",
+      "H1",
+      "Python",
+      "DDS"
+    ],
+    "description": "Python interfaces and examples for Unitree SDK2 workflows.",
+    "descriptionTh": "อินเทอร์เฟซและตัวอย่าง Python สำหรับการทำงานกับ Unitree SDK2",
+    "source": "upstream",
+    "owner": "unitreerobotics",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
+    "upstream": "https://github.com/unitreerobotics/unitree_sdk2_python",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10",
+    "key": "unitreerobotics/unitree_sdk2_python"
+  },
+  {
+    "id": "collections-dobot-atom-sdk",
+    "title": "DOBOT Atom SDK",
+    "categories": [
+      "hardware"
+    ],
+    "tags": [
+      "Atom",
+      "C++",
+      "RPC",
+      "DDS"
+    ],
+    "description": "DOBOT Atom C++ SDK with RPC / DDS and recording examples.",
+    "descriptionTh": "SDK C++ พร้อมตัวอย่าง RPC, DDS และบันทึกข้อต่อของ DOBOT Atom",
+    "source": "collection",
+    "owner": "Dobot-Arm",
+    "url": "https://github.com/SSRobotic/dobot-atom-sdk",
+    "upstream": "https://github.com/Dobot-Arm/dobot_atom_sdk",
+    "verifiedOn": "2026-10-10",
+    "key": "dobot-atom-sdk",
+    "collectionPath": "collections/dobot/atom-sdk"
+  },
+  {
+    "id": "pollen-robotics-reachy2-sdk",
+    "key": "pollen-robotics/reachy2-sdk",
+    "title": "Reachy 2 SDK",
+    "description": "Python SDK for the Reachy 2 robotics platform.",
+    "descriptionTh": "Python SDK สำหรับแพลตฟอร์มหุ่นยนต์ Reachy 2",
+    "categories": [
+      "hardware"
+    ],
+    "tags": [
+      "Reachy 2",
+      "Python",
+      "SDK"
+    ],
+    "source": "upstream",
+    "owner": "pollen-robotics",
+    "url": "https://github.com/pollen-robotics/reachy2-sdk",
+    "upstream": "https://github.com/pollen-robotics/reachy2-sdk",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "pollen-robotics-reachy2_core",
+    "key": "pollen-robotics/reachy2_core",
+    "title": "Reachy 2 Core",
+    "description": "Core workspace and integration resources for Reachy 2.",
+    "descriptionTh": "Core Workspace และแหล่งข้อมูลเชื่อมระบบ Reachy 2",
+    "categories": [
+      "hardware"
+    ],
+    "tags": [
+      "Reachy 2",
+      "Integration",
+      "ROS 2"
+    ],
+    "source": "upstream",
+    "owner": "pollen-robotics",
+    "url": "https://github.com/pollen-robotics/reachy2_core",
+    "upstream": "https://github.com/pollen-robotics/reachy2_core",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "collections-unitree-legacy-sdk",
+    "title": "Unitree Legacy SDK",
+    "categories": [
+      "hardware"
+    ],
+    "tags": [
+      "Go1",
+      "Legacy SDK",
+      "C++"
+    ],
+    "description": "Legacy Go1-oriented SDK collection and supporting examples.",
+    "descriptionTh": "คลัง SDK Unitree รุ่นเดิมสำหรับ Go1 เป็นหลัก งาน Humanoid รุ่นใหม่ควรดู SDK2",
+    "source": "collection",
+    "owner": "unitreerobotics",
+    "url": "https://github.com/SSRobotic/unitree-legacy-sdk",
+    "upstream": "https://github.com/unitreerobotics/unitree_legged_sdk",
+    "verifiedOn": "2026-10-10",
+    "key": "unitree-legacy-sdk",
+    "collectionPath": "collections/unitree/legacy-sdk"
+  }
+]
