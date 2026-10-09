@@ -1,0 +1,27 @@
+name: Suggest a robotics resource
+description: Add an original project to the curated directory
+title: "[Resource] "
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Original repository URL
+      placeholder: https://github.com/owner/project
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: What does it provide?
+      description: Include robots, tools and the intended use case.
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License or license file URL
+  - type: textarea
+    id: context
+    attributes:
+      label: Compatibility and source attribution
+      description: Specify whether this is humanoid-specific or a supporting tool.

@@ -1,0 +1,105 @@
+{
+  "imported_on": "2026-10-09",
+  "curator": "SSRobotic",
+  "collections": [
+    {
+      "name": "SSFocus_unitree_ros2-master",
+      "path": "collections/unitree/ros2",
+      "title": "Unitree ROS 2",
+      "upstream": "https://github.com/unitreerobotics/unitree_ros2",
+      "description": "ROS 2 / DDS integration; G1 and H1 examples alongside quadrupeds.",
+      "sha": "da42f91fdf07bb0ac4f9dc113478314fdf5d075f",
+      "file_count": 154,
+      "licenses": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "SSFocus_unitree_ros-master",
+      "path": "collections/unitree/ros",
+      "title": "Unitree ROS & Models",
+      "upstream": "https://github.com/unitreerobotics/unitree_ros",
+      "description": "Robot descriptions, Gazebo packages and joint controllers; includes G1 / H1 models.",
+      "sha": "54f77e229ff68f594b874dddc9877b91d3150de1",
+      "file_count": 77,
+      "licenses": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "SSFocus_unitree_robot_sdk",
+      "path": "collections/unitree/legacy-sdk",
+      "title": "Unitree Legacy SDK",
+      "upstream": "https://github.com/unitreerobotics/unitree_legged_sdk",
+      "description": "Legacy Unitree SDK collection; inspect bundled headers for platform compatibility. Use SDK2 for modern humanoids.",
+      "sha": "944a0d3d2e0697f1c63a68861e1885de5f032856",
+      "file_count": 122,
+      "licenses": [
+        "LICENSE",
+        "unitree_legged_sdk-go1/example/LICENSE",
+        "unitree_legged_sdk-go1/example/python_wrapper/third-party/pybind11/LICENSE"
+      ]
+    },
+    {
+      "name": "SSFocus_dobot_atom_urdf",
+      "path": "collections/dobot/atom-urdf",
+      "title": "DOBOT Atom Models",
+      "upstream": "https://github.com/Dobot-Arm/dobot_atom_urdf",
+      "description": "URDF / Xacro and meshes for Atom visualization and model inspection.",
+      "sha": "6a4461f532e284ecbe7f8bc6e9413accfc923c01",
+      "file_count": 37,
+      "licenses": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "SSFocus_dobot_atom_sdk-main",
+      "path": "collections/dobot/atom-sdk",
+      "title": "DOBOT Atom SDK",
+      "upstream": "https://github.com/Dobot-Arm/dobot_atom_sdk",
+      "description": "C++ SDK with RPC, DDS and joint recording examples.",
+      "sha": "28188feda1b76b99e9a956102f351b76f4a85b92",
+      "file_count": 994,
+      "licenses": [
+        "LICENSE",
+        "thirdparty/DDS/share/doc/CycloneDDS/LICENSE"
+      ]
+    },
+    {
+      "name": "SSFocus_dobot_atom_ros2-main",
+      "path": "collections/dobot/atom-ros2",
+      "title": "DOBOT Atom ROS 2",
+      "upstream": "https://github.com/Dobot-Arm/dobot_atom_ros2",
+      "description": "ROS 2 packages, robot descriptions, simulation and control examples.",
+      "sha": "7f4211b16e2445f1a0e1e5ae5bef1dc645c7b8b4",
+      "file_count": 102,
+      "licenses": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "SSFocus_Magician_ROS-main",
+      "path": "collections/dobot/magician-ros",
+      "title": "DOBOT Magician ROS",
+      "upstream": "https://github.com/Dobot-Arm/Magician_ROS",
+      "description": "Legacy desktop arm ROS demo; supporting manipulation resource, not a humanoid stack.",
+      "sha": "c7d30a7cbd8c8fd59eb6afd1031a398e1d44932f",
+      "file_count": 67,
+      "licenses": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "SSFocus_dobot_ros2_vision-main",
+      "path": "collections/dobot/ros2-vision",
+      "title": "DOBOT ROS 2 Vision",
+      "upstream": "https://github.com/Dobot-Arm/dobot_ros2_vision",
+      "description": "RealSense, hand-eye calibration and recognition / grasp examples for the EG0053-01 workstation.",
+      "sha": "27de346b103eb8ea42fca20e9eefc1ca7f2079cb",
+      "file_count": 134,
+      "licenses": [
+        "LICENSE"
+      ]
+    }
+  ]
+}
