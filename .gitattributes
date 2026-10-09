@@ -1,4 +1,9 @@
 docs/** text eol=lf
+*.jpg -text
+*.jpeg -text
+*.png -text
+*.gif -text
+*.webp -text
 *.md text eol=lf
 *.json text eol=lf
 collections/** -text
