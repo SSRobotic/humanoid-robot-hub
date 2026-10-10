@@ -14,10 +14,10 @@
 | [🤏 Manipulation & Planning](https://github.com/SSRobotic/humanoid-manipulation) | Motion planning, arm integration, grasping and demonstration-based manipulation. |
 | [🎮 Teleoperation](https://github.com/SSRobotic/humanoid-teleoperation) | XR teleoperation, human-to-humanoid control and demonstration collection. |
 | [💾 Datasets & Demonstrations](https://github.com/SSRobotic/humanoid-datasets) | Robotics dataset catalogs, data formats and training data utilities. |
-| [💬 Vision-Language-Action](https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-vla) | VLA model projects, manipulation policies and humanoid embodied AI references. |
-| [🔌 Hardware & SDKs](https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-hardware-sdks) | Vendor SDKs, communication interfaces and platform-specific humanoid software. |
-| [📡 ROS & Integration](https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-ros2) | ROS / ROS 2 integration, controllers, middleware and planning tools. |
-| [📚 Research & Benchmarks](https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-research) | Research code, published project references and embodied AI evaluation tools. |
+| [💬 Vision-Language-Action](https://github.com/SSRobotic/humanoid-vla) | VLA model projects, manipulation policies and humanoid embodied AI references. |
+| [🔌 Hardware & SDKs](https://github.com/SSRobotic/humanoid-hardware-sdks) | Vendor SDKs, communication interfaces and platform-specific humanoid software. |
+| [📡 ROS & Integration](https://github.com/SSRobotic/humanoid-ros2) | ROS / ROS 2 integration, controllers, middleware and planning tools. |
+| [📚 Research & Benchmarks](https://github.com/SSRobotic/humanoid-research) | Research code, published project references and embodied AI evaluation tools. |
 
 ## Platform collections
 

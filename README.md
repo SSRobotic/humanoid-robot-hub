@@ -8,7 +8,7 @@
 
 ## 👋 Welcome to SSRobotics
 
-I organize humanoid robotics resources into focused collections so you can find a useful starting point for engineering, simulation and research. This Hub connects **12 categories** (8 category repositories + 4 directories in this Hub), **8 code collections** and **47 curated resources**. Each repository links back here and credits its original sources.
+I organize humanoid robotics resources into focused collections so you can find a useful starting point for engineering, simulation and research. This Hub connects **12 category repositories**, **8 code collections** and **47 curated resources**. Each repository links back here and credits its original sources.
 
 ผมรวบรวมโค้ด โมเดล และเครื่องมือเกี่ยวกับ Humanoid Robotics แยกเป็น repo ตามหมวดให้ค้นหาและนำไปศึกษาต่อได้ง่าย พร้อมให้เครดิตผู้สร้างต้นฉบับ โลโก้ SSRobotics เป็นผลงานของผมเอง
 
@@ -24,10 +24,10 @@ I organize humanoid robotics resources into focused collections so you can find 
 | [🤏 Manipulation & Planning](https://github.com/SSRobotic/humanoid-manipulation) | Motion planning, arm integration, grasping and demonstration-based manipulation. |
 | [🎮 Teleoperation](https://github.com/SSRobotic/humanoid-teleoperation) | XR teleoperation, human-to-humanoid control and demonstration collection. |
 | [💾 Datasets & Demonstrations](https://github.com/SSRobotic/humanoid-datasets) | Robotics dataset catalogs, data formats and training data utilities. |
-| [💬 Vision-Language-Action](https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-vla) | VLA model projects, manipulation policies and humanoid embodied AI references. |
-| [🔌 Hardware & SDKs](https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-hardware-sdks) | Vendor SDKs, communication interfaces and platform-specific humanoid software. |
-| [📡 ROS & Integration](https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-ros2) | ROS / ROS 2 integration, controllers, middleware and planning tools. |
-| [📚 Research & Benchmarks](https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-research) | Research code, published project references and embodied AI evaluation tools. |
+| [💬 Vision-Language-Action](https://github.com/SSRobotic/humanoid-vla) | VLA model projects, manipulation policies and humanoid embodied AI references. |
+| [🔌 Hardware & SDKs](https://github.com/SSRobotic/humanoid-hardware-sdks) | Vendor SDKs, communication interfaces and platform-specific humanoid software. |
+| [📡 ROS & Integration](https://github.com/SSRobotic/humanoid-ros2) | ROS / ROS 2 integration, controllers, middleware and planning tools. |
+| [📚 Research & Benchmarks](https://github.com/SSRobotic/humanoid-research) | Research code, published project references and embodied AI evaluation tools. |
 
 ## 🛠️ Platform code collections
 
@@ -54,8 +54,8 @@ The site searches the curated catalog. The source links lead to the original pro
 
 1. [🦾 Inspect a model](https://github.com/SSRobotic/humanoid-models).
 2. [🌐 Set up simulation](https://github.com/SSRobotic/humanoid-simulation).
-3. [📡 Explore ROS integration](https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-ros2) or [🔌 vendor SDKs](https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-hardware-sdks).
-4. Choose [🧠 robot learning](https://github.com/SSRobotic/humanoid-robot-learning), [🎮 teleoperation](https://github.com/SSRobotic/humanoid-teleoperation) or [💬 VLA](https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-vla) based on your task.
+3. [📡 Explore ROS integration](https://github.com/SSRobotic/humanoid-ros2) or [🔌 vendor SDKs](https://github.com/SSRobotic/humanoid-hardware-sdks).
+4. Choose [🧠 robot learning](https://github.com/SSRobotic/humanoid-robot-learning), [🎮 teleoperation](https://github.com/SSRobotic/humanoid-teleoperation) or [💬 VLA](https://github.com/SSRobotic/humanoid-vla) based on your task.
 
 ## 📁 Repository map
 
@@ -66,7 +66,7 @@ collections/          Original consolidated source snapshots
 directories/          VLA, hardware, ROS and research resource directories
 catalog.json          Curated resources with source attribution
 sections.json         12 category definitions
-repositories.json     16 connected repositories + 4 Hub directories
+repositories.json     20 connected repositories
 provenance.json       Source commits and current collection repositories
 ```
 

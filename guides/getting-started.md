@@ -8,11 +8,11 @@ Start from the [main Hub](https://github.com/SSRobotic/humanoid-robot-hub) or th
 
 ## Simulation & control
 
-[🌐 Simulation](https://github.com/SSRobotic/humanoid-simulation), [⚙️ whole-body control](https://github.com/SSRobotic/humanoid-whole-body-control) and [📡 ROS integration](https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-ros2) have separate engineering guides. Match software, robot generation and middleware to the source instructions.
+[🌐 Simulation](https://github.com/SSRobotic/humanoid-simulation), [⚙️ whole-body control](https://github.com/SSRobotic/humanoid-whole-body-control) and [📡 ROS integration](https://github.com/SSRobotic/humanoid-ros2) have separate engineering guides. Match software, robot generation and middleware to the source instructions.
 
 ## Robot learning
 
-[🧠 Robot learning](https://github.com/SSRobotic/humanoid-robot-learning), [💬 VLA](https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-vla) and [💾 datasets](https://github.com/SSRobotic/humanoid-datasets) organize algorithms, model projects and demonstration data. Source compatibility and data access conditions remain with each project.
+[🧠 Robot learning](https://github.com/SSRobotic/humanoid-robot-learning), [💬 VLA](https://github.com/SSRobotic/humanoid-vla) and [💾 datasets](https://github.com/SSRobotic/humanoid-datasets) organize algorithms, model projects and demonstration data. Source compatibility and data access conditions remain with each project.
 
 ## Vision, manipulation & teleoperation
 

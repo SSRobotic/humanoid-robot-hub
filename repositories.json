@@ -101,8 +101,8 @@
     "title": "Vision-Language-Action",
     "titleTh": "โมเดล Vision-Language-Action",
     "description": "VLA model projects, manipulation policies and humanoid embodied AI references.",
-    "url": "https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-vla",
-    "kind": "embedded",
+    "url": "https://github.com/SSRobotic/humanoid-vla",
+    "kind": "category",
     "category": "vla",
     "resourceCount": 5,
     "descriptionTh": "โครงการ VLA, Policy สำหรับ Manipulation และ Embodied AI"
@@ -113,8 +113,8 @@
     "title": "Hardware & SDKs",
     "titleTh": "ฮาร์ดแวร์และ SDK",
     "description": "Vendor SDKs, communication interfaces and platform-specific humanoid software.",
-    "url": "https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-hardware-sdks",
-    "kind": "embedded",
+    "url": "https://github.com/SSRobotic/humanoid-hardware-sdks",
+    "kind": "category",
     "category": "hardware",
     "resourceCount": 6,
     "descriptionTh": "SDK ผู้ผลิต ระบบสื่อสาร และซอฟต์แวร์เฉพาะแพลตฟอร์ม"
@@ -125,8 +125,8 @@
     "title": "ROS & Integration",
     "titleTh": "ROS และการเชื่อมต่อ",
     "description": "ROS / ROS 2 integration, controllers, middleware and planning tools.",
-    "url": "https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-ros2",
-    "kind": "embedded",
+    "url": "https://github.com/SSRobotic/humanoid-ros2",
+    "kind": "category",
     "category": "ros",
     "resourceCount": 5,
     "descriptionTh": "ROS / ROS 2, Controller, Middleware และเครื่องมือ Planning"
@@ -137,8 +137,8 @@
     "title": "Research & Benchmarks",
     "titleTh": "งานวิจัยและ Benchmark",
     "description": "Research code, published project references and embodied AI evaluation tools.",
-    "url": "https://github.com/SSRobotic/humanoid-robot-hub/tree/main/directories/humanoid-research",
-    "kind": "embedded",
+    "url": "https://github.com/SSRobotic/humanoid-research",
+    "kind": "category",
     "category": "research",
     "resourceCount": 6,
     "descriptionTh": "โค้ดงานวิจัย แหล่งอ้างอิงโครงการ และการประเมิน Embodied AI"
