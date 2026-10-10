@@ -19,7 +19,15 @@
     "upstream": "https://github.com/unitreerobotics/unitree_ros2",
     "verifiedOn": "2026-10-10",
     "key": "unitree-ros2",
-    "collectionPath": "collections/unitree/ros2"
+    "collectionPath": "collections/unitree/ros2",
+    "localCopies": [
+      {
+        "repository": "humanoid-ros2",
+        "url": "https://github.com/SSRobotic/humanoid-ros2/tree/main/projects/unitree_ros2",
+        "commit": "da42f91fdf07bb0ac4f9dc113478314fdf5d075f",
+        "fileCount": 154
+      }
+    ]
   },
   {
     "id": "collections-dobot-atom-ros2",

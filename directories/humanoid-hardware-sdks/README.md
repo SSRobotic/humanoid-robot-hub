@@ -29,6 +29,10 @@ Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repos
 | [Reachy 2 SDK](https://github.com/pollen-robotics/reachy2-sdk) | Python SDK for the Reachy 2 robotics platform. | Reachy 2, Python, SDK | [pollen-robotics](https://github.com/pollen-robotics/reachy2-sdk) |
 | [Reachy 2 Core](https://github.com/pollen-robotics/reachy2_core) | Core workspace and integration resources for Reachy 2. | Reachy 2, Integration, ROS 2 | [pollen-robotics](https://github.com/pollen-robotics/reachy2_core) |
 
+## 📦 Actual code files
+
+The source snapshot for this category is in the connected repository: [open projects/](https://github.com/SSRobotic/humanoid-hardware-sdks/tree/main/projects). This folder is a navigation reference copy.
+
 ## 🚀 Start here
 
 1. Confirm the hardware generation, firmware and communication protocol.

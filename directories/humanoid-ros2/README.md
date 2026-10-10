@@ -29,6 +29,10 @@ Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repos
 | [MoveIt 2](https://github.com/moveit/moveit2) | ROS 2 motion-planning and manipulation framework. | ROS 2, Motion planning, Manipulation | [moveit](https://github.com/moveit/moveit2) |
 | [Isaac Sim ROS Workspaces](https://github.com/isaac-sim/IsaacSim-ros_workspaces) | ROS workspace packages for Isaac Sim integration; check the supported ROS distribution upstream. | Isaac Sim, ROS 2, Integration | [isaac-sim](https://github.com/isaac-sim/IsaacSim-ros_workspaces) |
 
+## 📦 Actual code files
+
+The source snapshot for this category is in the connected repository: [open projects/](https://github.com/SSRobotic/humanoid-ros2/tree/main/projects). This folder is a navigation reference copy.
+
 ## 🚀 Start here
 
 1. Choose the ROS distribution and middleware specified by the source project.

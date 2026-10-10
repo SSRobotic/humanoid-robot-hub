@@ -111,7 +111,15 @@
     "url": "https://github.com/ARISE-Initiative/robomimic",
     "upstream": "https://github.com/ARISE-Initiative/robomimic",
     "license": "MIT",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-manipulation",
+        "url": "https://github.com/SSRobotic/humanoid-manipulation/tree/main/projects/robomimic",
+        "commit": "d309eaecc18acf4152a830a895a6984b8ac71b05",
+        "fileCount": 201
+      }
+    ]
   },
   {
     "id": "LeCAR-Lab-human2humanoid",
@@ -134,6 +142,37 @@
     "upstream": "https://github.com/LeCAR-Lab/human2humanoid",
     "license": "See project notices",
     "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "kscalelabs-ksim",
+    "key": "kscalelabs/ksim",
+    "title": "KSim",
+    "description": "MuJoCo / JAX reinforcement-learning tools for humanoid tasks.",
+    "descriptionTh": "เครื่องมือ RL บน MuJoCo / JAX สำหรับงาน Humanoid",
+    "categories": [
+      "learning",
+      "research"
+    ],
+    "tags": [
+      "Humanoid",
+      "MuJoCo",
+      "JAX",
+      "RL"
+    ],
+    "source": "upstream",
+    "owner": "kscalelabs",
+    "url": "https://github.com/kscalelabs/ksim",
+    "upstream": "https://github.com/kscalelabs/ksim",
+    "license": "MIT",
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-research",
+        "url": "https://github.com/SSRobotic/humanoid-research/tree/main/projects/ksim",
+        "commit": "52265b581b7268758a2cf77234c70e2559087365",
+        "fileCount": 87
+      }
+    ]
   },
   {
     "id": "isaac-sim-isaaclab-arena",

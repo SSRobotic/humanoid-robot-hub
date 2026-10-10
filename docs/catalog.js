@@ -19,7 +19,15 @@ const HUB_CATALOG = [
     "upstream": "https://github.com/unitreerobotics/unitree_ros2",
     "verifiedOn": "2026-10-10",
     "key": "unitree-ros2",
-    "collectionPath": "collections/unitree/ros2"
+    "collectionPath": "collections/unitree/ros2",
+    "localCopies": [
+      {
+        "repository": "humanoid-ros2",
+        "url": "https://github.com/SSRobotic/humanoid-ros2/tree/main/projects/unitree_ros2",
+        "commit": "da42f91fdf07bb0ac4f9dc113478314fdf5d075f",
+        "fileCount": 154
+      }
+    ]
   },
   {
     "id": "collections-unitree-ros",
@@ -85,7 +93,15 @@ const HUB_CATALOG = [
     "upstream": "https://github.com/Dobot-Arm/dobot_atom_urdf",
     "verifiedOn": "2026-10-10",
     "key": "dobot-atom-models",
-    "collectionPath": "collections/dobot/atom-urdf"
+    "collectionPath": "collections/dobot/atom-urdf",
+    "localCopies": [
+      {
+        "repository": "humanoid-models",
+        "url": "https://github.com/SSRobotic/humanoid-models/tree/main/projects/dobot_atom_urdf",
+        "commit": "6a4461f532e284ecbe7f8bc6e9413accfc923c01",
+        "fileCount": 37
+      }
+    ]
   },
   {
     "id": "collections-dobot-atom-sdk",
@@ -173,7 +189,15 @@ const HUB_CATALOG = [
     "upstream": "https://github.com/Dobot-Arm/dobot_ros2_vision",
     "verifiedOn": "2026-10-10",
     "key": "dobot-vision",
-    "collectionPath": "collections/dobot/ros2-vision"
+    "collectionPath": "collections/dobot/ros2-vision",
+    "localCopies": [
+      {
+        "repository": "humanoid-vision",
+        "url": "https://github.com/SSRobotic/humanoid-vision/tree/main/projects/dobot_vision",
+        "commit": "27de346b103eb8ea42fca20e9eefc1ca7f2079cb",
+        "fileCount": 134
+      }
+    ]
   },
   {
     "id": "unitreerobotics-unitree_sdk2",
@@ -217,7 +241,15 @@ const HUB_CATALOG = [
     "upstream": "https://github.com/unitreerobotics/unitree_sdk2_python",
     "license": "BSD-3-Clause",
     "verifiedOn": "2026-10-10",
-    "key": "unitreerobotics/unitree_sdk2_python"
+    "key": "unitreerobotics/unitree_sdk2_python",
+    "localCopies": [
+      {
+        "repository": "humanoid-hardware-sdks",
+        "url": "https://github.com/SSRobotic/humanoid-hardware-sdks/tree/main/projects/unitree_sdk2_python",
+        "commit": "814556d15970dd2ecf1c9984e845ca02ab07e206",
+        "fileCount": 268
+      }
+    ]
   },
   {
     "id": "unitreerobotics-unitree_mujoco",
@@ -239,7 +271,15 @@ const HUB_CATALOG = [
     "upstream": "https://github.com/unitreerobotics/unitree_mujoco",
     "license": "BSD-3-Clause",
     "verifiedOn": "2026-10-10",
-    "key": "unitreerobotics/unitree_mujoco"
+    "key": "unitreerobotics/unitree_mujoco",
+    "localCopies": [
+      {
+        "repository": "humanoid-simulation",
+        "url": "https://github.com/SSRobotic/humanoid-simulation/tree/main/projects/unitree_mujoco",
+        "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+        "fileCount": 718
+      }
+    ]
   },
   {
     "id": "unitreerobotics-unitree_rl_gym",
@@ -284,7 +324,15 @@ const HUB_CATALOG = [
     "upstream": "https://github.com/isaac-sim/IsaacLab",
     "license": "BSD-3-Clause",
     "verifiedOn": "2026-10-10",
-    "key": "isaac-sim/IsaacLab"
+    "key": "isaac-sim/IsaacLab",
+    "localCopies": [
+      {
+        "repository": "humanoid-isaac-sim",
+        "url": "https://github.com/SSRobotic/humanoid-isaac-sim/tree/main/projects/IsaacLab",
+        "commit": "b0542fe2d45bf91c4e1d9ef6952b9c709c80b4e8",
+        "fileCount": 1993
+      }
+    ]
   },
   {
     "id": "google-deepmind-mujoco",
@@ -655,7 +703,15 @@ const HUB_CATALOG = [
     "url": "https://github.com/leggedrobotics/rsl_rl",
     "upstream": "https://github.com/leggedrobotics/rsl_rl",
     "license": "NOASSERTION",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-robot-learning",
+        "url": "https://github.com/SSRobotic/humanoid-robot-learning/tree/main/projects/rsl_rl",
+        "commit": "a11f6792f11b17cc76f05be2273c7b8a84095e93",
+        "fileCount": 109
+      }
+    ]
   },
   {
     "id": "leggedrobotics-legged_gym",
@@ -804,7 +860,15 @@ const HUB_CATALOG = [
     "url": "https://github.com/OpenTeleVision/TeleVision",
     "upstream": "https://github.com/OpenTeleVision/TeleVision",
     "license": "NOASSERTION",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-teleoperation",
+        "url": "https://github.com/SSRobotic/humanoid-teleoperation/tree/main/projects/TeleVision",
+        "commit": "e6e25afdb16c1b326b5bf37bd0ae79919bf79f26",
+        "fileCount": 237
+      }
+    ]
   },
   {
     "id": "google-deepmind-open_x_embodiment",
@@ -825,7 +889,15 @@ const HUB_CATALOG = [
     "url": "https://github.com/google-deepmind/open_x_embodiment",
     "upstream": "https://github.com/google-deepmind/open_x_embodiment",
     "license": "Apache-2.0",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-datasets",
+        "url": "https://github.com/SSRobotic/humanoid-datasets/tree/main/projects/open_x_embodiment",
+        "commit": "9eeb68b989efbcf474e8fb9019e01d02b962a604",
+        "fileCount": 12
+      }
+    ]
   },
   {
     "id": "ARISE-Initiative-robomimic",
@@ -848,7 +920,15 @@ const HUB_CATALOG = [
     "url": "https://github.com/ARISE-Initiative/robomimic",
     "upstream": "https://github.com/ARISE-Initiative/robomimic",
     "license": "MIT",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-manipulation",
+        "url": "https://github.com/SSRobotic/humanoid-manipulation/tree/main/projects/robomimic",
+        "commit": "d309eaecc18acf4152a830a895a6984b8ac71b05",
+        "fileCount": 201
+      }
+    ]
   },
   {
     "id": "Physical-Intelligence-openpi",
@@ -890,7 +970,15 @@ const HUB_CATALOG = [
     "url": "https://github.com/openvla/openvla",
     "upstream": "https://github.com/openvla/openvla",
     "license": "MIT",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-vla",
+        "url": "https://github.com/SSRobotic/humanoid-vla/tree/main/projects/openvla",
+        "commit": "c8f03f48af692657d3060c19588038c7220e9af9",
+        "fileCount": 106
+      }
+    ]
   },
   {
     "id": "LeCAR-Lab-human2humanoid",
@@ -921,7 +1009,8 @@ const HUB_CATALOG = [
     "description": "MuJoCo / JAX reinforcement-learning tools for humanoid tasks.",
     "descriptionTh": "เครื่องมือ RL บน MuJoCo / JAX สำหรับงาน Humanoid",
     "categories": [
-      "learning"
+      "learning",
+      "research"
     ],
     "tags": [
       "Humanoid",
@@ -934,7 +1023,15 @@ const HUB_CATALOG = [
     "url": "https://github.com/kscalelabs/ksim",
     "upstream": "https://github.com/kscalelabs/ksim",
     "license": "MIT",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-research",
+        "url": "https://github.com/SSRobotic/humanoid-research/tree/main/projects/ksim",
+        "commit": "52265b581b7268758a2cf77234c70e2559087365",
+        "fileCount": 87
+      }
+    ]
   },
   {
     "id": "pollen-robotics-reachy2-sdk",
@@ -1040,7 +1137,15 @@ const HUB_CATALOG = [
     "url": "https://github.com/isaac-sim/IsaacSim",
     "upstream": "https://github.com/isaac-sim/IsaacSim",
     "license": "See project notices",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-isaac-sim",
+        "url": "https://github.com/SSRobotic/humanoid-isaac-sim/tree/main/projects/IsaacSim",
+        "commit": "2469084bc328710207c6bc4ede32209082a9286c",
+        "fileCount": 9529
+      }
+    ]
   },
   {
     "id": "isaac-sim-isaaclab-arena",
@@ -1129,7 +1234,15 @@ const HUB_CATALOG = [
     "url": "https://github.com/stack-of-tasks/tsid",
     "upstream": "https://github.com/stack-of-tasks/tsid",
     "license": "BSD-2-Clause",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-whole-body-control",
+        "url": "https://github.com/SSRobotic/humanoid-whole-body-control/tree/main/projects/tsid",
+        "commit": "25762a26464d10f6a2b1becc87f6e9a13c24c44b",
+        "fileCount": 319
+      }
+    ]
   },
   {
     "id": "loco-3d-crocoddyl",
@@ -1151,7 +1264,15 @@ const HUB_CATALOG = [
     "url": "https://github.com/loco-3d/crocoddyl",
     "upstream": "https://github.com/loco-3d/crocoddyl",
     "license": "BSD-3-Clause",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-algorithms",
+        "url": "https://github.com/SSRobotic/humanoid-algorithms/tree/main/projects/crocoddyl",
+        "commit": "0d3b1ae9c2f062305f50a01058df12eb28ae0500",
+        "fileCount": 770
+      }
+    ]
   },
   {
     "id": "leggedrobotics-ocs2",
@@ -1196,7 +1317,15 @@ const HUB_CATALOG = [
     "url": "https://github.com/pink-kinematics/pink",
     "upstream": "https://github.com/pink-kinematics/pink",
     "license": "Apache-2.0",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-algorithms",
+        "url": "https://github.com/SSRobotic/humanoid-algorithms/tree/main/projects/pink",
+        "commit": "2c333161fc260de93fb7be1dd8d6519d2ecc2df2",
+        "fileCount": 128
+      }
+    ]
   },
   {
     "id": "ompl-ompl",
@@ -1444,168 +1573,210 @@ const HUB_REPOSITORIES = [
     "emoji": "🦾",
     "title": "Models & URDF",
     "titleTh": "โมเดลและ URDF",
-    "description": "Robot descriptions, URDF / MJCF assets and model inspection resources.",
+    "description": "dobot_atom_urdf: 37 pinned source/model files, upstream credits and engineering guides.",
     "url": "https://github.com/SSRobotic/humanoid-models",
-    "kind": "directory",
+    "kind": "source",
     "category": "models",
     "resourceCount": 6,
-    "descriptionTh": "Robot Description, URDF / MJCF และเครื่องมือสำรวจโมเดลหุ่นยนต์"
+    "descriptionTh": "โค้ดและโมเดล dobot_atom_urdf จำนวน 37 ไฟล์ พร้อมรุ่นต้นฉบับ เครดิต และคู่มือ",
+    "sourceFileCount": 37,
+    "lfsPointerCount": 0,
+    "materializedFileCount": 37
   },
   {
     "name": "humanoid-simulation",
     "emoji": "🌐",
     "title": "Simulation",
     "titleTh": "ระบบจำลอง",
-    "description": "Physics engines, simulator integrations and humanoid simulation workflows.",
+    "description": "unitree_mujoco: 718 pinned source/model files, upstream credits and engineering guides.",
     "url": "https://github.com/SSRobotic/humanoid-simulation",
-    "kind": "directory",
+    "kind": "source",
     "category": "simulation",
     "resourceCount": 7,
-    "descriptionTh": "เอนจินฟิสิกส์และระบบจำลองสำหรับงาน Humanoid"
+    "descriptionTh": "โค้ดและโมเดล unitree_mujoco จำนวน 718 ไฟล์ พร้อมรุ่นต้นฉบับ เครดิต และคู่มือ",
+    "sourceFileCount": 718,
+    "lfsPointerCount": 0,
+    "materializedFileCount": 718
   },
   {
     "name": "humanoid-robot-learning",
     "emoji": "🧠",
     "title": "Robot Learning",
     "titleTh": "การเรียนรู้ของหุ่นยนต์",
-    "description": "Reinforcement learning, imitation learning and humanoid training frameworks.",
+    "description": "rsl_rl: 109 pinned source/model files, upstream credits and engineering guides.",
     "url": "https://github.com/SSRobotic/humanoid-robot-learning",
-    "kind": "directory",
+    "kind": "source",
     "category": "learning",
     "resourceCount": 9,
-    "descriptionTh": "Reinforcement Learning, Imitation Learning และเฟรมเวิร์กฝึกหุ่นยนต์"
+    "descriptionTh": "โค้ดและโมเดล rsl_rl จำนวน 109 ไฟล์ พร้อมรุ่นต้นฉบับ เครดิต และคู่มือ",
+    "sourceFileCount": 109,
+    "lfsPointerCount": 0,
+    "materializedFileCount": 109
   },
   {
     "name": "humanoid-whole-body-control",
     "emoji": "⚙️",
     "title": "Whole-body Control",
     "titleTh": "ควบคุมทั้งร่างกาย",
-    "description": "Dynamics, kinematics, locomotion and whole-body control references.",
+    "description": "tsid: 319 pinned source/model files, upstream credits and engineering guides.",
     "url": "https://github.com/SSRobotic/humanoid-whole-body-control",
-    "kind": "directory",
+    "kind": "source",
     "category": "control",
     "resourceCount": 11,
-    "descriptionTh": "Dynamics, Kinematics, Locomotion และการควบคุมทั้งร่างกาย"
+    "descriptionTh": "โค้ดและโมเดล tsid จำนวน 319 ไฟล์ พร้อมรุ่นต้นฉบับ เครดิต และคู่มือ",
+    "sourceFileCount": 319,
+    "lfsPointerCount": 0,
+    "materializedFileCount": 319
   },
   {
     "name": "humanoid-vision",
     "emoji": "👁️",
     "title": "Vision & 3D Perception",
     "titleTh": "การมองเห็นและข้อมูล 3D",
-    "description": "Camera SDKs, computer vision, point clouds and perception resources.",
+    "description": "dobot_ros2_vision: 134 pinned source/model files, upstream credits and engineering guides.",
     "url": "https://github.com/SSRobotic/humanoid-vision",
-    "kind": "directory",
+    "kind": "source",
     "category": "vision",
     "resourceCount": 5,
-    "descriptionTh": "Camera SDK, Computer Vision, Point Cloud และ Perception"
+    "descriptionTh": "โค้ดและโมเดล dobot_ros2_vision จำนวน 134 ไฟล์ พร้อมรุ่นต้นฉบับ เครดิต และคู่มือ",
+    "sourceFileCount": 134,
+    "lfsPointerCount": 0,
+    "materializedFileCount": 134
   },
   {
     "name": "humanoid-manipulation",
     "emoji": "🤏",
     "title": "Manipulation & Planning",
     "titleTh": "จับวัตถุและวางแผน",
-    "description": "Motion planning, arm integration, grasping and demonstration-based manipulation.",
+    "description": "robomimic: 201 pinned source/model files, upstream credits and engineering guides.",
     "url": "https://github.com/SSRobotic/humanoid-manipulation",
-    "kind": "directory",
+    "kind": "source",
     "category": "manipulation",
     "resourceCount": 8,
-    "descriptionTh": "Motion Planning, แขนกล, Grasping และการเรียนรู้จากตัวอย่าง"
+    "descriptionTh": "โค้ดและโมเดล robomimic จำนวน 201 ไฟล์ พร้อมรุ่นต้นฉบับ เครดิต และคู่มือ",
+    "sourceFileCount": 201,
+    "lfsPointerCount": 0,
+    "materializedFileCount": 201
   },
   {
     "name": "humanoid-teleoperation",
     "emoji": "🎮",
     "title": "Teleoperation",
     "titleTh": "ควบคุมระยะไกล",
-    "description": "XR teleoperation, human-to-humanoid control and demonstration collection.",
+    "description": "TeleVision: 237 pinned source/model files, upstream credits and engineering guides.",
     "url": "https://github.com/SSRobotic/humanoid-teleoperation",
-    "kind": "directory",
+    "kind": "source",
     "category": "teleoperation",
     "resourceCount": 3,
-    "descriptionTh": "XR Teleoperation, Human-to-Humanoid และการเก็บ Demonstration"
+    "descriptionTh": "โค้ดและโมเดล TeleVision จำนวน 237 ไฟล์ พร้อมรุ่นต้นฉบับ เครดิต และคู่มือ",
+    "sourceFileCount": 237,
+    "lfsPointerCount": 0,
+    "materializedFileCount": 237
   },
   {
     "name": "humanoid-datasets",
     "emoji": "💾",
     "title": "Datasets & Demonstrations",
     "titleTh": "ข้อมูลและ Demonstration",
-    "description": "Robotics dataset catalogs, data formats and training data utilities.",
+    "description": "open_x_embodiment: 12 pinned source/model files, upstream credits and engineering guides.",
     "url": "https://github.com/SSRobotic/humanoid-datasets",
-    "kind": "directory",
+    "kind": "source",
     "category": "datasets",
     "resourceCount": 5,
-    "descriptionTh": "คลัง Dataset หุ่นยนต์ รูปแบบข้อมูล และเครื่องมือจัดเตรียมข้อมูลฝึก"
+    "descriptionTh": "โค้ดและโมเดล open_x_embodiment จำนวน 12 ไฟล์ พร้อมรุ่นต้นฉบับ เครดิต และคู่มือ",
+    "sourceFileCount": 12,
+    "lfsPointerCount": 0,
+    "materializedFileCount": 12
   },
   {
     "name": "humanoid-vla",
     "emoji": "💬",
     "title": "Vision-Language-Action",
     "titleTh": "โมเดล Vision-Language-Action",
-    "description": "VLA model projects, manipulation policies and humanoid embodied AI references.",
+    "description": "openvla: 106 pinned source/model files, upstream credits and engineering guides.",
     "url": "https://github.com/SSRobotic/humanoid-vla",
-    "kind": "category",
+    "kind": "source",
     "category": "vla",
     "resourceCount": 5,
-    "descriptionTh": "โครงการ VLA, Policy สำหรับ Manipulation และ Embodied AI"
+    "descriptionTh": "โค้ดและโมเดล openvla จำนวน 106 ไฟล์ พร้อมรุ่นต้นฉบับ เครดิต และคู่มือ",
+    "sourceFileCount": 106,
+    "lfsPointerCount": 0,
+    "materializedFileCount": 106
   },
   {
     "name": "humanoid-hardware-sdks",
     "emoji": "🔌",
     "title": "Hardware & SDKs",
     "titleTh": "ฮาร์ดแวร์และ SDK",
-    "description": "Vendor SDKs, communication interfaces and platform-specific humanoid software.",
+    "description": "unitree_sdk2_python: 268 pinned source/model files, upstream credits and engineering guides.",
     "url": "https://github.com/SSRobotic/humanoid-hardware-sdks",
-    "kind": "category",
+    "kind": "source",
     "category": "hardware",
     "resourceCount": 6,
-    "descriptionTh": "SDK ผู้ผลิต ระบบสื่อสาร และซอฟต์แวร์เฉพาะแพลตฟอร์ม"
+    "descriptionTh": "โค้ดและโมเดล unitree_sdk2_python จำนวน 268 ไฟล์ พร้อมรุ่นต้นฉบับ เครดิต และคู่มือ",
+    "sourceFileCount": 268,
+    "lfsPointerCount": 0,
+    "materializedFileCount": 268
   },
   {
     "name": "humanoid-ros2",
     "emoji": "📡",
     "title": "ROS & Integration",
     "titleTh": "ROS และการเชื่อมต่อ",
-    "description": "ROS / ROS 2 integration, controllers, middleware and planning tools.",
+    "description": "unitree_ros2: 154 pinned source/model files, upstream credits and engineering guides.",
     "url": "https://github.com/SSRobotic/humanoid-ros2",
-    "kind": "category",
+    "kind": "source",
     "category": "ros",
     "resourceCount": 6,
-    "descriptionTh": "ROS / ROS 2, Controller, Middleware และเครื่องมือ Planning"
+    "descriptionTh": "โค้ดและโมเดล unitree_ros2 จำนวน 154 ไฟล์ พร้อมรุ่นต้นฉบับ เครดิต และคู่มือ",
+    "sourceFileCount": 154,
+    "lfsPointerCount": 0,
+    "materializedFileCount": 154
   },
   {
     "name": "humanoid-research",
     "emoji": "📚",
     "title": "Research & Benchmarks",
     "titleTh": "งานวิจัยและ Benchmark",
-    "description": "Research code, published project references and embodied AI evaluation tools.",
+    "description": "ksim: 87 pinned source/model files, upstream credits and engineering guides.",
     "url": "https://github.com/SSRobotic/humanoid-research",
-    "kind": "category",
+    "kind": "source",
     "category": "research",
-    "resourceCount": 7,
-    "descriptionTh": "โค้ดงานวิจัย แหล่งอ้างอิงโครงการ และการประเมิน Embodied AI"
+    "resourceCount": 8,
+    "descriptionTh": "โค้ดและโมเดล ksim จำนวน 87 ไฟล์ พร้อมรุ่นต้นฉบับ เครดิต และคู่มือ",
+    "sourceFileCount": 87,
+    "lfsPointerCount": 0,
+    "materializedFileCount": 87
   },
   {
     "name": "humanoid-isaac-sim",
     "emoji": "🟢",
     "title": "Isaac Sim & Isaac Lab",
     "titleTh": "Isaac Sim และ Isaac Lab",
-    "description": "Isaac Sim scenes, Isaac Lab training, ROS integration and policy evaluation resources.",
-    "descriptionTh": "ฉาก Isaac Sim, การฝึกบน Isaac Lab, เชื่อม ROS และการประเมิน Policy",
+    "description": "Isaac Sim + Isaac Lab: 10,375 complete tracked files + 1,147 upstream LFS asset pointers; humanoid launcher and setup guide.",
+    "descriptionTh": "Isaac Sim + Isaac Lab: 10,375 ไฟล์ครบเนื้อหา + 1,147 ตัวอ้างอิง LFS พร้อม Launcher และคู่มือติดตั้ง",
     "url": "https://github.com/SSRobotic/humanoid-isaac-sim",
-    "kind": "directory",
+    "kind": "source",
     "category": "isaac",
-    "resourceCount": 8
+    "resourceCount": 8,
+    "sourceFileCount": 11522,
+    "lfsPointerCount": 1147,
+    "materializedFileCount": 10375
   },
   {
     "name": "humanoid-algorithms",
     "emoji": "🧮",
     "title": "Robotics Algorithms",
     "titleTh": "อัลกอริทึมหุ่นยนต์",
-    "description": "IK, inverse dynamics, MPC / DDP, motion planning, optimization and reinforcement learning.",
-    "descriptionTh": "IK, Inverse Dynamics, MPC / DDP, Motion Planning, Optimization และ Reinforcement Learning",
+    "description": "pink + crocoddyl: 898 pinned source/model files, upstream credits and engineering guides.",
+    "descriptionTh": "โค้ดและโมเดล pink + crocoddyl จำนวน 898 ไฟล์ พร้อมรุ่นต้นฉบับ เครดิต และคู่มือ",
     "url": "https://github.com/SSRobotic/humanoid-algorithms",
-    "kind": "directory",
+    "kind": "source",
     "category": "algorithms",
-    "resourceCount": 13
+    "resourceCount": 13,
+    "sourceFileCount": 898,
+    "lfsPointerCount": 0,
+    "materializedFileCount": 898
   },
   {
     "name": "unitree-ros2",

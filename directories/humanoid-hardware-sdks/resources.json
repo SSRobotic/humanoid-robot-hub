@@ -84,7 +84,15 @@
     "upstream": "https://github.com/unitreerobotics/unitree_sdk2_python",
     "license": "BSD-3-Clause",
     "verifiedOn": "2026-10-10",
-    "key": "unitreerobotics/unitree_sdk2_python"
+    "key": "unitreerobotics/unitree_sdk2_python",
+    "localCopies": [
+      {
+        "repository": "humanoid-hardware-sdks",
+        "url": "https://github.com/SSRobotic/humanoid-hardware-sdks/tree/main/projects/unitree_sdk2_python",
+        "commit": "814556d15970dd2ecf1c9984e845ca02ab07e206",
+        "fileCount": 268
+      }
+    ]
   },
   {
     "id": "pollen-robotics-reachy2-sdk",

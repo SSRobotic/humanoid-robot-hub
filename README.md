@@ -23,6 +23,33 @@ I organize humanoid robotics resources into focused collections so you can find 
 
 ผมรวบรวมโค้ด โมเดล และเครื่องมือเกี่ยวกับ Humanoid Robotics แยกเป็น repo ตามหมวดให้ค้นหาและนำไปศึกษาต่อได้ง่าย พร้อมให้เครดิตผู้สร้างต้นฉบับ โลโก้ SSRobotics เป็นผลงานของผมเอง
 
+## 📦 Actual source code across the categories
+
+**14,802 tracked upstream files in 14 category repositories**, plus the original eight platform collections. Open `projects/` in a category to browse the actual files. [source-collections.json](source-collections.json) records their pinned upstream commits; each repository includes per-file Git blob hashes and the retained licenses.
+
+| Category repository | Actual project files | Imported files |
+| --- | --- | ---: |
+| [🦾 Models & URDF](https://github.com/SSRobotic/humanoid-models) | [dobot_atom_urdf](https://github.com/SSRobotic/humanoid-models/tree/main/projects/dobot_atom_urdf) | 37 |
+| [🌐 Simulation](https://github.com/SSRobotic/humanoid-simulation) | [unitree_mujoco](https://github.com/SSRobotic/humanoid-simulation/tree/main/projects/unitree_mujoco) | 718 |
+| [🧠 Robot Learning](https://github.com/SSRobotic/humanoid-robot-learning) | [rsl_rl](https://github.com/SSRobotic/humanoid-robot-learning/tree/main/projects/rsl_rl) | 109 |
+| [⚙️ Whole-body Control](https://github.com/SSRobotic/humanoid-whole-body-control) | [tsid](https://github.com/SSRobotic/humanoid-whole-body-control/tree/main/projects/tsid) | 319 |
+| [👁️ Vision & 3D Perception](https://github.com/SSRobotic/humanoid-vision) | [dobot_ros2_vision](https://github.com/SSRobotic/humanoid-vision/tree/main/projects/dobot_vision) | 134 |
+| [🤏 Manipulation & Planning](https://github.com/SSRobotic/humanoid-manipulation) | [robomimic](https://github.com/SSRobotic/humanoid-manipulation/tree/main/projects/robomimic) | 201 |
+| [🎮 Teleoperation](https://github.com/SSRobotic/humanoid-teleoperation) | [TeleVision](https://github.com/SSRobotic/humanoid-teleoperation/tree/main/projects/TeleVision) | 237 |
+| [💾 Datasets & Demonstrations](https://github.com/SSRobotic/humanoid-datasets) | [open_x_embodiment](https://github.com/SSRobotic/humanoid-datasets/tree/main/projects/open_x_embodiment) | 12 |
+| [💬 Vision-Language-Action](https://github.com/SSRobotic/humanoid-vla) | [openvla](https://github.com/SSRobotic/humanoid-vla/tree/main/projects/openvla) | 106 |
+| [🔌 Hardware & SDKs](https://github.com/SSRobotic/humanoid-hardware-sdks) | [unitree_sdk2_python](https://github.com/SSRobotic/humanoid-hardware-sdks/tree/main/projects/unitree_sdk2_python) | 268 |
+| [📡 ROS & Integration](https://github.com/SSRobotic/humanoid-ros2) | [unitree_ros2](https://github.com/SSRobotic/humanoid-ros2/tree/main/projects/unitree_ros2) | 154 |
+| [📚 Research & Benchmarks](https://github.com/SSRobotic/humanoid-research) | [ksim](https://github.com/SSRobotic/humanoid-research/tree/main/projects/ksim) | 87 |
+| [🟢 Isaac Sim & Isaac Lab](https://github.com/SSRobotic/humanoid-isaac-sim) | [IsaacLab](https://github.com/SSRobotic/humanoid-isaac-sim/tree/main/projects/IsaacLab) · [IsaacSim](https://github.com/SSRobotic/humanoid-isaac-sim/tree/main/projects/IsaacSim) | 11,522 |
+| [🧮 Robotics Algorithms](https://github.com/SSRobotic/humanoid-algorithms) | [pink](https://github.com/SSRobotic/humanoid-algorithms/tree/main/projects/pink) · [crocoddyl](https://github.com/SSRobotic/humanoid-algorithms/tree/main/projects/crocoddyl) | 898 |
+
+▶️ [Run CPU examples: IK, MPC and RRT](https://github.com/SSRobotic/humanoid-algorithms/tree/main/examples) · [Isaac Lab humanoid task source](https://github.com/SSRobotic/humanoid-isaac-sim/tree/main/projects/IsaacLab/source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/humanoid)
+
+**13,655 files contain their full tracked contents; 1,147 Isaac asset files are upstream Git LFS pointers.** Binary LFS assets are obtained from the original project; the category README explains cloning without automatic LFS downloads.
+
+These are separately pinned source snapshots, not a prebuilt unified runtime. External submodules, model weights, raw datasets and NVIDIA runtime/assets are identified in the category documentation and acquired through their original providers.
+
 ## 🧭 Choose your starting point
 
 | I want to… | Start here | Continue with |
@@ -90,6 +117,7 @@ directories/          Reference copies of four connected category directories
 catalog.json          Curated resources with source attribution
 sections.json         14 category definitions
 repositories.json     22 connected repositories
+source-collections.json  Pinned code snapshots in all 14 categories
 provenance.json       Source commits and current collection repositories
 ```
 

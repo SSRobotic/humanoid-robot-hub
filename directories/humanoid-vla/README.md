@@ -28,6 +28,10 @@ Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repos
 | [OpenPI](https://github.com/Physical-Intelligence/openpi) | Physical Intelligence VLA models and training / inference code. | VLA, Policies, Training | [Physical-Intelligence](https://github.com/Physical-Intelligence/openpi) |
 | [OpenVLA](https://github.com/openvla/openvla) | Vision-language-action models for robotic manipulation. | VLA, Manipulation, Policies | [openvla](https://github.com/openvla/openvla) |
 
+## 📦 Actual code files
+
+The source snapshot for this category is in the connected repository: [open projects/](https://github.com/SSRobotic/humanoid-vla/tree/main/projects). This folder is a navigation reference copy.
+
 ## 🚀 Start here
 
 1. Read the model’s supported embodiments, action representation and checkpoint terms.

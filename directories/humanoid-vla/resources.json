@@ -107,6 +107,14 @@
     "url": "https://github.com/openvla/openvla",
     "upstream": "https://github.com/openvla/openvla",
     "license": "MIT",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-vla",
+        "url": "https://github.com/SSRobotic/humanoid-vla/tree/main/projects/openvla",
+        "commit": "c8f03f48af692657d3060c19588038c7220e9af9",
+        "fileCount": 106
+      }
+    ]
   }
 ]

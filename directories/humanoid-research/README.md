@@ -30,6 +30,10 @@ Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repos
 | [Human2Humanoid / OmniH2O](https://github.com/LeCAR-Lab/human2humanoid) | Human-to-humanoid whole-body teleoperation and learning research. | Humanoid, Teleoperation, Whole-body | [LeCAR-Lab](https://github.com/LeCAR-Lab/human2humanoid) |
 | [Isaac Lab Arena](https://github.com/isaac-sim/IsaacLab-Arena) | Composable simulation tasks and policy evaluation built around Isaac Lab. | Isaac Lab, Policy evaluation, Benchmarks | [isaac-sim](https://github.com/isaac-sim/IsaacLab-Arena) |
 
+## 📦 Actual code files
+
+The source snapshot for this category is in the connected repository: [open projects/](https://github.com/SSRobotic/humanoid-research/tree/main/projects). This folder is a navigation reference copy.
+
 ## 🚀 Start here
 
 1. Open the original project and locate its paper / citation and evaluation setup.

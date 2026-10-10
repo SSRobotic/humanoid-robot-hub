@@ -15,6 +15,27 @@ SSRobotic curates the directories and authors the Hub navigation. The SSRobotics
 | DOBOT Magician ROS | [SSRobotic/dobot-magician-ros](https://github.com/SSRobotic/dobot-magician-ros) | `c7d30a7cbd8c8fd59eb6afd1031a398e1d44932f` | [Upstream](https://github.com/Dobot-Arm/Magician_ROS) |
 | DOBOT ROS 2 Vision | [SSRobotic/dobot-vision](https://github.com/SSRobotic/dobot-vision) | `27de346b103eb8ea42fca20e9eefc1ca7f2079cb` | [Upstream](https://github.com/Dobot-Arm/dobot_ros2_vision) |
 
+## 📦 Category source snapshots
+
+The actual files in the category `projects/` folders retain their original authorship, licenses and notices. SSRobotic curated and packaged the snapshots; no authorship of the imported algorithms or frameworks is claimed.
+
+- [Dobot-Arm/dobot_atom_urdf](https://github.com/Dobot-Arm/dobot_atom_urdf) → [humanoid-models/projects/dobot_atom_urdf](https://github.com/SSRobotic/humanoid-models/tree/main/projects/dobot_atom_urdf), commit `6a4461f532e284ecbe7f8bc6e9413accfc923c01`, 37 files.
+- [unitreerobotics/unitree_mujoco](https://github.com/unitreerobotics/unitree_mujoco) → [humanoid-simulation/projects/unitree_mujoco](https://github.com/SSRobotic/humanoid-simulation/tree/main/projects/unitree_mujoco), commit `1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d`, 718 files.
+- [leggedrobotics/rsl_rl](https://github.com/leggedrobotics/rsl_rl) → [humanoid-robot-learning/projects/rsl_rl](https://github.com/SSRobotic/humanoid-robot-learning/tree/main/projects/rsl_rl), commit `a11f6792f11b17cc76f05be2273c7b8a84095e93`, 109 files.
+- [stack-of-tasks/tsid](https://github.com/stack-of-tasks/tsid) → [humanoid-whole-body-control/projects/tsid](https://github.com/SSRobotic/humanoid-whole-body-control/tree/main/projects/tsid), commit `25762a26464d10f6a2b1becc87f6e9a13c24c44b`, 319 files.
+- [Dobot-Arm/dobot_ros2_vision](https://github.com/Dobot-Arm/dobot_ros2_vision) → [humanoid-vision/projects/dobot_vision](https://github.com/SSRobotic/humanoid-vision/tree/main/projects/dobot_vision), commit `27de346b103eb8ea42fca20e9eefc1ca7f2079cb`, 134 files.
+- [ARISE-Initiative/robomimic](https://github.com/ARISE-Initiative/robomimic) → [humanoid-manipulation/projects/robomimic](https://github.com/SSRobotic/humanoid-manipulation/tree/main/projects/robomimic), commit `d309eaecc18acf4152a830a895a6984b8ac71b05`, 201 files.
+- [OpenTeleVision/TeleVision](https://github.com/OpenTeleVision/TeleVision) → [humanoid-teleoperation/projects/TeleVision](https://github.com/SSRobotic/humanoid-teleoperation/tree/main/projects/TeleVision), commit `e6e25afdb16c1b326b5bf37bd0ae79919bf79f26`, 237 files.
+- [google-deepmind/open_x_embodiment](https://github.com/google-deepmind/open_x_embodiment) → [humanoid-datasets/projects/open_x_embodiment](https://github.com/SSRobotic/humanoid-datasets/tree/main/projects/open_x_embodiment), commit `9eeb68b989efbcf474e8fb9019e01d02b962a604`, 12 files.
+- [openvla/openvla](https://github.com/openvla/openvla) → [humanoid-vla/projects/openvla](https://github.com/SSRobotic/humanoid-vla/tree/main/projects/openvla), commit `c8f03f48af692657d3060c19588038c7220e9af9`, 106 files.
+- [unitreerobotics/unitree_sdk2_python](https://github.com/unitreerobotics/unitree_sdk2_python) → [humanoid-hardware-sdks/projects/unitree_sdk2_python](https://github.com/SSRobotic/humanoid-hardware-sdks/tree/main/projects/unitree_sdk2_python), commit `814556d15970dd2ecf1c9984e845ca02ab07e206`, 268 files.
+- [unitreerobotics/unitree_ros2](https://github.com/unitreerobotics/unitree_ros2) → [humanoid-ros2/projects/unitree_ros2](https://github.com/SSRobotic/humanoid-ros2/tree/main/projects/unitree_ros2), commit `da42f91fdf07bb0ac4f9dc113478314fdf5d075f`, 154 files.
+- [kscalelabs/ksim](https://github.com/kscalelabs/ksim) → [humanoid-research/projects/ksim](https://github.com/SSRobotic/humanoid-research/tree/main/projects/ksim), commit `52265b581b7268758a2cf77234c70e2559087365`, 87 files.
+- [isaac-sim/IsaacLab](https://github.com/isaac-sim/IsaacLab) → [humanoid-isaac-sim/projects/IsaacLab](https://github.com/SSRobotic/humanoid-isaac-sim/tree/main/projects/IsaacLab), commit `b0542fe2d45bf91c4e1d9ef6952b9c709c80b4e8`, 1,993 files.
+- [isaac-sim/IsaacSim](https://github.com/isaac-sim/IsaacSim) → [humanoid-isaac-sim/projects/IsaacSim](https://github.com/SSRobotic/humanoid-isaac-sim/tree/main/projects/IsaacSim), commit `2469084bc328710207c6bc4ede32209082a9286c`, 9,529 files.
+- [pink-kinematics/pink](https://github.com/pink-kinematics/pink) → [humanoid-algorithms/projects/pink](https://github.com/SSRobotic/humanoid-algorithms/tree/main/projects/pink), commit `2c333161fc260de93fb7be1dd8d6519d2ecc2df2`, 128 files.
+- [loco-3d/crocoddyl](https://github.com/loco-3d/crocoddyl) → [humanoid-algorithms/projects/crocoddyl](https://github.com/SSRobotic/humanoid-algorithms/tree/main/projects/crocoddyl), commit `0d3b1ae9c2f062305f50a01058df12eb28ae0500`, 770 files.
+
 ## 🔗 Indexed resources
 
 - [Unitree ROS 2](https://github.com/unitreerobotics/unitree_ros2) — unitreerobotics

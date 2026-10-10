@@ -13,7 +13,7 @@ function render(){
  for(const r of items){
   const card=el('article','card');const top=el('div','card-top');top.append(el('span','category',categoryName(r.categories[0])),el('span','source-tag',r.source==='collection'?'SSROBOTIC COLLECTION':'ORIGINAL PROJECT'));card.append(top,el('h3','',r.title),el('p','',state.lang==='th'?r.descriptionTh:r.description));
   const tags=el('div','tags');r.tags.forEach(t=>tags.append(el('span','',t)));card.append(tags,el('div','credit',(state.lang==='th'?'ผู้พัฒนาต้นฉบับ: ':'Original creators: ')+r.owner));
-  const links=el('div','card-links');links.append(link(r.source==='collection'?(state.lang==='th'?'เปิดคลังโค้ด ↗':'Browse collection ↗'):(state.lang==='th'?'เปิดโครงการ ↗':'Explore project ↗'),r.url));if(r.source==='collection')links.append(link(state.lang==='th'?'ต้นฉบับ ↗':'Upstream ↗',r.upstream));card.append(links);$('cards').append(card);
+  const links=el('div','card-links');links.append(link(r.source==='collection'?(state.lang==='th'?'เปิดคลังโค้ด ↗':'Browse collection ↗'):(state.lang==='th'?'เปิดโครงการ ↗':'Explore project ↗'),r.url));if(r.source==='collection')links.append(link(state.lang==='th'?'ต้นฉบับ ↗':'Upstream ↗',r.upstream));if(r.localCopies)for(const copy of r.localCopies)links.append(link(state.lang==='th'?'📦 โค้ดใน SSRobotics ↗':'📦 SSRobotics source ↗',copy.url));card.append(links);$('cards').append(card);
  }
  $('results-count').textContent=state.lang==='th'?`พบ ${items.length} จาก ${HUB_CATALOG.length} รายการ`:`Showing ${items.length} of ${HUB_CATALOG.length} resources`;
  $('empty').hidden=items.length!==0;
@@ -28,7 +28,7 @@ function language(){
  const sources=state.lang==='th'?['ทุกแหล่งข้อมูล','คลัง SSRobotic','โครงการต้นฉบับ']:['All sources','SSRobotic collections','Original projects'];Array.from($('source').options).forEach((o,i)=>o.textContent=sources[i]);
  const sorts=state.lang==='th'?['ลำดับแนะนำ','ชื่อ A–Z']:['Curated order','Name A–Z'];Array.from($('sort').options).forEach((o,i)=>o.textContent=sorts[i]);
  $('repo-grid').replaceChildren();
- for(const r of HUB_REPOSITORIES){const a=el('a','repo-tile');a.href=r.url;a.target='_blank';a.rel='noopener noreferrer';a.append(el('h3','',r.emoji+' '+(state.lang==='th'?r.titleTh:r.title)),el('p','',state.lang==='th'?r.descriptionTh:r.description),el('span','repo-kind',r.kind==='code'?'🛠️ CODE COLLECTION ↗':r.kind==='embedded'?'📂 HUB DIRECTORY ↗':'🗂️ RESOURCE DIRECTORY ↗'));$('repo-grid').append(a);}
+ for(const r of HUB_REPOSITORIES){const a=el('a','repo-tile');a.href=r.url;a.target='_blank';a.rel='noopener noreferrer';a.append(el('h3','',r.emoji+' '+(state.lang==='th'?r.titleTh:r.title)),el('p','',state.lang==='th'?r.descriptionTh:r.description),el('span','repo-kind',r.kind==='code'?'🛠️ CODE COLLECTION ↗':r.kind==='source'?'📦 SOURCE COLLECTION ↗':r.kind==='embedded'?'📂 HUB DIRECTORY ↗':'🗂️ RESOURCE DIRECTORY ↗'));$('repo-grid').append(a);}
  render();
 }
 $('search').addEventListener('input',e=>{state.query=e.target.value;render();});$('source').addEventListener('change',e=>{state.source=e.target.value;render();});$('sort').addEventListener('change',e=>{state.sort=e.target.value;render();});
