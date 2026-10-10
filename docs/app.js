@@ -7,7 +7,7 @@ function link(text,url){const a=el('a','',text);a.href=url;a.target='_blank';a.r
 function categoryName(id){const c=categories.find(x=>x[0]===id);return c?c[state.lang==='th'?2:1]:id;}
 function render(){
  const q=state.query.trim().toLowerCase();
- let items=HUB_CATALOG.filter(r=>(state.category==='all'||r.categories.includes(state.category))&&(state.source==='all'||r.source===state.source)&&(!q||[r.title,r.description,r.descriptionTh,r.owner,...r.tags].join(' ').toLowerCase().includes(q)));
+ let items=HUB_CATALOG.filter(r=>(state.category==='all'||r.categories.includes(state.category))&&(state.source==='all'||r.source===state.source||(state.source==='collection'&&r.localCopies&&r.localCopies.length>0))&&(!q||[r.title,r.description,r.descriptionTh,r.owner,...r.tags].join(' ').toLowerCase().includes(q)));
  if(state.sort==='name')items=items.slice().sort((a,b)=>a.title.localeCompare(b.title));
  $('cards').replaceChildren();
  for(const r of items){
