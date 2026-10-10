@@ -35,4 +35,4 @@ $('search').addEventListener('input',e=>{state.query=e.target.value;render();});
 $('language').addEventListener('click',()=>{state.lang=state.lang==='en'?'th':'en';localStorage.setItem('hub-lang',state.lang);language();});
 $('reset').addEventListener('click',()=>{Object.assign(state,{query:'',category:'all',source:'all',sort:'curated'});$('search').value='';$('source').value='all';$('sort').value='curated';render();});
 document.addEventListener('keydown',e=>{if(e.key==='/'&&!/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)){e.preventDefault();$('search').focus();}});
-$('resource-count').textContent=String(HUB_CATALOG.length).padStart(2,'0');language();
+$('resource-count').textContent=String(HUB_CATALOG.length).padStart(2,'0');$('repository-count').textContent=String(HUB_REPOSITORIES.filter(r=>r.kind!=='embedded').length);language();

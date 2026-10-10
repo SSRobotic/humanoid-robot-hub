@@ -8,7 +8,7 @@
     "url": "https://github.com/SSRobotic/humanoid-models",
     "kind": "directory",
     "category": "models",
-    "resourceCount": 4,
+    "resourceCount": 6,
     "descriptionTh": "Robot Description, URDF / MJCF และเครื่องมือสำรวจโมเดลหุ่นยนต์"
   },
   {
@@ -20,7 +20,7 @@
     "url": "https://github.com/SSRobotic/humanoid-simulation",
     "kind": "directory",
     "category": "simulation",
-    "resourceCount": 5,
+    "resourceCount": 7,
     "descriptionTh": "เอนจินฟิสิกส์และระบบจำลองสำหรับงาน Humanoid"
   },
   {
@@ -32,7 +32,7 @@
     "url": "https://github.com/SSRobotic/humanoid-robot-learning",
     "kind": "directory",
     "category": "learning",
-    "resourceCount": 7,
+    "resourceCount": 9,
     "descriptionTh": "Reinforcement Learning, Imitation Learning และเฟรมเวิร์กฝึกหุ่นยนต์"
   },
   {
@@ -44,7 +44,7 @@
     "url": "https://github.com/SSRobotic/humanoid-whole-body-control",
     "kind": "directory",
     "category": "control",
-    "resourceCount": 5,
+    "resourceCount": 11,
     "descriptionTh": "Dynamics, Kinematics, Locomotion และการควบคุมทั้งร่างกาย"
   },
   {
@@ -68,7 +68,7 @@
     "url": "https://github.com/SSRobotic/humanoid-manipulation",
     "kind": "directory",
     "category": "manipulation",
-    "resourceCount": 6,
+    "resourceCount": 8,
     "descriptionTh": "Motion Planning, แขนกล, Grasping และการเรียนรู้จากตัวอย่าง"
   },
   {
@@ -128,7 +128,7 @@
     "url": "https://github.com/SSRobotic/humanoid-ros2",
     "kind": "category",
     "category": "ros",
-    "resourceCount": 5,
+    "resourceCount": 6,
     "descriptionTh": "ROS / ROS 2, Controller, Middleware และเครื่องมือ Planning"
   },
   {
@@ -140,8 +140,32 @@
     "url": "https://github.com/SSRobotic/humanoid-research",
     "kind": "category",
     "category": "research",
-    "resourceCount": 6,
+    "resourceCount": 7,
     "descriptionTh": "โค้ดงานวิจัย แหล่งอ้างอิงโครงการ และการประเมิน Embodied AI"
+  },
+  {
+    "name": "humanoid-isaac-sim",
+    "emoji": "🟢",
+    "title": "Isaac Sim & Isaac Lab",
+    "titleTh": "Isaac Sim และ Isaac Lab",
+    "description": "Isaac Sim scenes, Isaac Lab training, ROS integration and policy evaluation resources.",
+    "descriptionTh": "ฉาก Isaac Sim, การฝึกบน Isaac Lab, เชื่อม ROS และการประเมิน Policy",
+    "url": "https://github.com/SSRobotic/humanoid-isaac-sim",
+    "kind": "directory",
+    "category": "isaac",
+    "resourceCount": 8
+  },
+  {
+    "name": "humanoid-algorithms",
+    "emoji": "🧮",
+    "title": "Robotics Algorithms",
+    "titleTh": "อัลกอริทึมหุ่นยนต์",
+    "description": "IK, inverse dynamics, MPC / DDP, motion planning, optimization and reinforcement learning.",
+    "descriptionTh": "IK, Inverse Dynamics, MPC / DDP, Motion Planning, Optimization และ Reinforcement Learning",
+    "url": "https://github.com/SSRobotic/humanoid-algorithms",
+    "kind": "directory",
+    "category": "algorithms",
+    "resourceCount": 13
   },
   {
     "name": "unitree-ros2",

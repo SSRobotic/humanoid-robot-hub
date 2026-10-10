@@ -1,16 +1,36 @@
 <p align="center"><img src="docs/assets/ssrobotics-logo.jpg" alt="SSRobotics — original logo by SSRobotic" width="240"></p>
 
-# 🤖 Humanoid Robot Hub
+<h1 align="center">🤖 Humanoid Robot Hub</h1>
 
 <p align="center"><b>SSRobotics · Robotics Engineer &amp; Open-source Curator</b><br>Discover models, code, simulation and robot learning through connected repositories.</p>
 
+<p align="center">
+  <a href="https://ssrobotic.github.io/humanoid-robot-hub/"><img src="https://img.shields.io/badge/Resources-60-f28c28?style=flat-square" alt="60 curated resources"></a>
+  <a href="https://github.com/SSRobotic/humanoid-robot-hub#-category-directories"><img src="https://img.shields.io/badge/Categories-14-555555?style=flat-square" alt="14 categories"></a>
+  <a href="https://github.com/SSRobotic/humanoid-robot-hub"><img src="https://img.shields.io/badge/Linked_repos-22-555555?style=flat-square" alt="22 connected repositories"></a>
+  <a href="https://ssrobotic.github.io/humanoid-robot-hub/"><img src="https://img.shields.io/badge/Language-TH_%2F_EN-555555?style=flat-square" alt="Thai and English"></a>
+  <a href="https://github.com/SSRobotic/humanoid-robot-hub/blob/main/CREDITS.md"><img src="https://img.shields.io/badge/Original_sources-Credited-555555?style=flat-square" alt="Original authors credited"></a>
+</p>
+
+
 <p align="center"><a href="https://ssrobotic.github.io/humanoid-robot-hub/">🔎 Search the Hub</a> · <a href="#-category-directories">🗂️ Browse categories</a> · <a href="guides/getting-started.md">🚀 Getting started</a> · <a href="https://github.com/SSRobotic">👤 Follow SSRobotic</a></p>
+
+---
 
 ## 👋 Welcome to SSRobotics
 
-I organize humanoid robotics resources into focused collections so you can find a useful starting point for engineering, simulation and research. This Hub connects **12 category repositories**, **8 code collections** and **47 curated resources**. Each repository links back here and credits its original sources.
+I organize humanoid robotics resources into focused collections so you can find a useful starting point for engineering, simulation and research. This Hub connects **14 category repositories**, **8 code collections** and **60 curated resources**. Each repository links back here and credits its original sources.
 
 ผมรวบรวมโค้ด โมเดล และเครื่องมือเกี่ยวกับ Humanoid Robotics แยกเป็น repo ตามหมวดให้ค้นหาและนำไปศึกษาต่อได้ง่าย พร้อมให้เครดิตผู้สร้างต้นฉบับ โลโก้ SSRobotics เป็นผลงานของผมเอง
+
+## 🧭 Choose your starting point
+
+| I want to… | Start here | Continue with |
+| --- | --- | --- |
+| 🟢 Simulate a humanoid or train a policy | [Isaac Sim / Isaac Lab](https://github.com/SSRobotic/humanoid-isaac-sim) | [Setup & evaluation guide](guides/isaac-sim.md) |
+| 🧮 Choose a control or planning algorithm | [Robotics Algorithms](https://github.com/SSRobotic/humanoid-algorithms) | [IK · MPC · DDP · Planning · RL](guides/robotics-algorithms.md) |
+| 🦾 Inspect a model and connect interfaces | [Models & URDF](https://github.com/SSRobotic/humanoid-models) | [ROS integration](https://github.com/SSRobotic/humanoid-ros2) · [Hardware SDKs](https://github.com/SSRobotic/humanoid-hardware-sdks) |
+| 🎮 Collect demonstrations or explore VLA | [Teleoperation](https://github.com/SSRobotic/humanoid-teleoperation) | [Datasets](https://github.com/SSRobotic/humanoid-datasets) · [VLA](https://github.com/SSRobotic/humanoid-vla) |
 
 ## 🗂️ Category directories
 
@@ -28,6 +48,8 @@ I organize humanoid robotics resources into focused collections so you can find 
 | [🔌 Hardware & SDKs](https://github.com/SSRobotic/humanoid-hardware-sdks) | Vendor SDKs, communication interfaces and platform-specific humanoid software. |
 | [📡 ROS & Integration](https://github.com/SSRobotic/humanoid-ros2) | ROS / ROS 2 integration, controllers, middleware and planning tools. |
 | [📚 Research & Benchmarks](https://github.com/SSRobotic/humanoid-research) | Research code, published project references and embodied AI evaluation tools. |
+| [🟢 Isaac Sim & Isaac Lab](https://github.com/SSRobotic/humanoid-isaac-sim) | Isaac Sim scenes, Isaac Lab training, ROS integration and policy evaluation resources. |
+| [🧮 Robotics Algorithms](https://github.com/SSRobotic/humanoid-algorithms) | IK, inverse dynamics, MPC / DDP, motion planning, optimization and reinforcement learning. |
 
 ## 🛠️ Platform code collections
 
@@ -46,16 +68,17 @@ The code repositories contain the existing platform collections, with their hist
 
 ## 🔎 Search & explore
 
-Visit the [bilingual resource directory](https://ssrobotic.github.io/humanoid-robot-hub/). Search by robot, tool or topic and filter by one of the 12 categories. Try `G1`, `Atom`, `TienKung`, `MuJoCo`, `Teleoperation`, `VLA` or `RoboMIND`.
+Visit the [bilingual resource directory](https://ssrobotic.github.io/humanoid-robot-hub/). Search by robot, tool or topic and filter by one of the 14 categories. Try `G1`, `Atom`, `TienKung`, `MuJoCo`, `Teleoperation`, `VLA`, `RoboMIND`, `Isaac Sim`, `IK`, `MPC` or `PPO`.
 
 The site searches the curated catalog. The source links lead to the original project or dataset; dataset download / access conditions stay with the source provider.
 
 ## 🚀 Start building
 
 1. [🦾 Inspect a model](https://github.com/SSRobotic/humanoid-models).
-2. [🌐 Set up simulation](https://github.com/SSRobotic/humanoid-simulation).
+2. [🌐 Set up simulation](https://github.com/SSRobotic/humanoid-simulation) or start the [🟢 Isaac Sim / Isaac Lab guide](guides/isaac-sim.md).
 3. [📡 Explore ROS integration](https://github.com/SSRobotic/humanoid-ros2) or [🔌 vendor SDKs](https://github.com/SSRobotic/humanoid-hardware-sdks).
 4. Choose [🧠 robot learning](https://github.com/SSRobotic/humanoid-robot-learning), [🎮 teleoperation](https://github.com/SSRobotic/humanoid-teleoperation) or [💬 VLA](https://github.com/SSRobotic/humanoid-vla) based on your task.
+5. Select [🧮 robotics algorithms](guides/robotics-algorithms.md) for IK, inverse dynamics, MPC / DDP, planning and RL.
 
 ## 📁 Repository map
 
@@ -63,10 +86,10 @@ The site searches the curated catalog. The source links lead to the original pro
 docs/                 Bilingual search site and original SSRobotics logo
 guides/               Getting started and ecosystem navigation
 collections/          Original consolidated source snapshots
-directories/          VLA, hardware, ROS and research resource directories
+directories/          Reference copies of four connected category directories
 catalog.json          Curated resources with source attribution
-sections.json         12 category definitions
-repositories.json     20 connected repositories
+sections.json         14 category definitions
+repositories.json     22 connected repositories
 provenance.json       Source commits and current collection repositories
 ```
 

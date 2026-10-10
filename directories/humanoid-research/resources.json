@@ -7,7 +7,8 @@
     "descriptionTh": "เวิร์กโฟลว์ Isaac Lab สำหรับเรียนรู้การเคลื่อนไหวของหุ่นยนต์ รวมถึง TienKung",
     "categories": [
       "simulation",
-      "research"
+      "research",
+      "isaac"
     ],
     "tags": [
       "TienKung",
@@ -19,28 +20,6 @@
     "url": "https://github.com/Open-X-Humanoid/TienKung-Lab",
     "upstream": "https://github.com/Open-X-Humanoid/TienKung-Lab",
     "license": "NOASSERTION",
-    "verifiedOn": "2026-10-10"
-  },
-  {
-    "id": "LeCAR-Lab-human2humanoid",
-    "key": "LeCAR-Lab/human2humanoid",
-    "title": "Human2Humanoid / OmniH2O",
-    "description": "Human-to-humanoid whole-body teleoperation and learning research.",
-    "descriptionTh": "งานวิจัย Teleoperation และ Learning ทั้งร่างกายจากมนุษย์สู่ Humanoid",
-    "categories": [
-      "teleoperation",
-      "research"
-    ],
-    "tags": [
-      "Humanoid",
-      "Teleoperation",
-      "Whole-body"
-    ],
-    "source": "upstream",
-    "owner": "LeCAR-Lab",
-    "url": "https://github.com/LeCAR-Lab/human2humanoid",
-    "upstream": "https://github.com/LeCAR-Lab/human2humanoid",
-    "license": "See project notices",
     "verifiedOn": "2026-10-10"
   },
   {
@@ -96,7 +75,8 @@
     "categories": [
       "simulation",
       "vla",
-      "research"
+      "research",
+      "isaac"
     ],
     "tags": [
       "VLA",
@@ -131,6 +111,51 @@
     "url": "https://github.com/ARISE-Initiative/robomimic",
     "upstream": "https://github.com/ARISE-Initiative/robomimic",
     "license": "MIT",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "LeCAR-Lab-human2humanoid",
+    "key": "LeCAR-Lab/human2humanoid",
+    "title": "Human2Humanoid / OmniH2O",
+    "description": "Human-to-humanoid whole-body teleoperation and learning research.",
+    "descriptionTh": "งานวิจัย Teleoperation และ Learning ทั้งร่างกายจากมนุษย์สู่ Humanoid",
+    "categories": [
+      "teleoperation",
+      "research"
+    ],
+    "tags": [
+      "Humanoid",
+      "Teleoperation",
+      "Whole-body"
+    ],
+    "source": "upstream",
+    "owner": "LeCAR-Lab",
+    "url": "https://github.com/LeCAR-Lab/human2humanoid",
+    "upstream": "https://github.com/LeCAR-Lab/human2humanoid",
+    "license": "See project notices",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "isaac-sim-isaaclab-arena",
+    "key": "isaac-sim/IsaacLab-Arena",
+    "title": "Isaac Lab Arena",
+    "description": "Composable simulation tasks and policy evaluation built around Isaac Lab.",
+    "descriptionTh": "ระบบประกอบงานจำลองและประเมิน Policy บน Isaac Lab",
+    "tags": [
+      "Isaac Lab",
+      "Policy evaluation",
+      "Benchmarks"
+    ],
+    "categories": [
+      "isaac",
+      "learning",
+      "research"
+    ],
+    "source": "upstream",
+    "owner": "isaac-sim",
+    "url": "https://github.com/isaac-sim/IsaacLab-Arena",
+    "upstream": "https://github.com/isaac-sim/IsaacLab-Arena",
+    "license": "See project notices",
     "verifiedOn": "2026-10-10"
   }
 ]

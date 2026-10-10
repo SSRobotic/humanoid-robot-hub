@@ -18,6 +18,8 @@
 | [🔌 Hardware & SDKs](https://github.com/SSRobotic/humanoid-hardware-sdks) | Vendor SDKs, communication interfaces and platform-specific humanoid software. |
 | [📡 ROS & Integration](https://github.com/SSRobotic/humanoid-ros2) | ROS / ROS 2 integration, controllers, middleware and planning tools. |
 | [📚 Research & Benchmarks](https://github.com/SSRobotic/humanoid-research) | Research code, published project references and embodied AI evaluation tools. |
+| [🟢 Isaac Sim & Isaac Lab](https://github.com/SSRobotic/humanoid-isaac-sim) | Isaac Sim scenes, Isaac Lab training, ROS integration and policy evaluation resources. |
+| [🧮 Robotics Algorithms](https://github.com/SSRobotic/humanoid-algorithms) | IK, inverse dynamics, MPC / DDP, motion planning, optimization and reinforcement learning. |
 
 ## Platform collections
 

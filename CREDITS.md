@@ -65,4 +65,30 @@ SSRobotic curates the directories and authors the Hub navigation. The SSRobotics
 - [RoboMIND Dataset](https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND) — X-Humanoid / RoboMIND
 - [ArtVIP Assets](https://huggingface.co/datasets/X-Humanoid/ArtVIP) — X-Humanoid
 
+- [Isaac Sim](https://github.com/isaac-sim/IsaacSim) — isaac-sim
+
+- [Isaac Lab Arena](https://github.com/isaac-sim/IsaacLab-Arena) — isaac-sim
+
+- [Isaac Sim ROS Workspaces](https://github.com/isaac-sim/IsaacSim-ros_workspaces) — isaac-sim
+
+- [Isaac Automator](https://github.com/isaac-sim/IsaacAutomator) — isaac-sim
+
+- [TSID](https://github.com/stack-of-tasks/tsid) — stack-of-tasks
+
+- [Crocoddyl](https://github.com/loco-3d/crocoddyl) — loco-3d
+
+- [OCS2](https://github.com/leggedrobotics/ocs2) — leggedrobotics
+
+- [Pink Inverse Kinematics](https://github.com/pink-kinematics/pink) — pink-kinematics
+
+- [OMPL](https://github.com/ompl/ompl) — ompl
+
+- [cuRobo](https://github.com/NVlabs/curobo) — NVlabs
+
+- [OSQP](https://github.com/osqp/osqp) — osqp
+
+- [CasADi](https://github.com/casadi/casadi) — casadi
+
+- [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3) — DLR-RM
+
 Links and repository metadata checked on 2026-10-10. Read source notices for compatibility, licensing and dataset conditions. Original code, models and datasets retain their respective authorship.

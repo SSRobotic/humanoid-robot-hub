@@ -106,5 +106,23 @@
     "titleTh": "งานวิจัยและ Benchmark",
     "about": "Research code, published project references and embodied AI evaluation tools.",
     "aboutTh": "โค้ดงานวิจัย แหล่งอ้างอิงโครงการ และการประเมิน Embodied AI"
+  },
+  {
+    "id": "isaac",
+    "repo": "humanoid-isaac-sim",
+    "emoji": "🟢",
+    "title": "Isaac Sim & Isaac Lab",
+    "titleTh": "Isaac Sim และ Isaac Lab",
+    "about": "Isaac Sim scenes, Isaac Lab training, ROS integration and policy evaluation resources.",
+    "aboutTh": "ฉาก Isaac Sim, การฝึกบน Isaac Lab, เชื่อม ROS และการประเมิน Policy"
+  },
+  {
+    "id": "algorithms",
+    "repo": "humanoid-algorithms",
+    "emoji": "🧮",
+    "title": "Robotics Algorithms",
+    "titleTh": "อัลกอริทึมหุ่นยนต์",
+    "about": "IK, inverse dynamics, MPC / DDP, motion planning, optimization and reinforcement learning.",
+    "aboutTh": "IK, Inverse Dynamics, MPC / DDP, Motion Planning, Optimization และ Reinforcement Learning"
   }
 ]

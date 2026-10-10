@@ -65,28 +65,6 @@
     "key": "ros-controls/ros2_control"
   },
   {
-    "id": "moveit-moveit2",
-    "key": "moveit/moveit2",
-    "title": "MoveIt 2",
-    "description": "ROS 2 motion-planning and manipulation framework.",
-    "descriptionTh": "เฟรมเวิร์ก Motion Planning และ Manipulation สำหรับ ROS 2",
-    "categories": [
-      "manipulation",
-      "ros"
-    ],
-    "tags": [
-      "ROS 2",
-      "Motion planning",
-      "Manipulation"
-    ],
-    "source": "upstream",
-    "owner": "moveit",
-    "url": "https://github.com/moveit/moveit2",
-    "upstream": "https://github.com/moveit/moveit2",
-    "license": "BSD-3-Clause",
-    "verifiedOn": "2026-10-10"
-  },
-  {
     "id": "Open-X-Humanoid-TienKung_ROS",
     "key": "Open-X-Humanoid/TienKung_ROS",
     "title": "TienKung ROS",
@@ -106,6 +84,52 @@
     "url": "https://github.com/Open-X-Humanoid/TienKung_ROS",
     "upstream": "https://github.com/Open-X-Humanoid/TienKung_ROS",
     "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "moveit-moveit2",
+    "key": "moveit/moveit2",
+    "title": "MoveIt 2",
+    "description": "ROS 2 motion-planning and manipulation framework.",
+    "descriptionTh": "เฟรมเวิร์ก Motion Planning และ Manipulation สำหรับ ROS 2",
+    "categories": [
+      "manipulation",
+      "ros",
+      "algorithms"
+    ],
+    "tags": [
+      "ROS 2",
+      "Motion planning",
+      "Manipulation"
+    ],
+    "source": "upstream",
+    "owner": "moveit",
+    "url": "https://github.com/moveit/moveit2",
+    "upstream": "https://github.com/moveit/moveit2",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "isaac-sim-isaacsim-ros_workspaces",
+    "key": "isaac-sim/IsaacSim-ros_workspaces",
+    "title": "Isaac Sim ROS Workspaces",
+    "description": "ROS workspace packages for Isaac Sim integration; check the supported ROS distribution upstream.",
+    "descriptionTh": "แพ็กเกจ ROS Workspace สำหรับเชื่อม Isaac Sim ตรวจรุ่น ROS ที่รองรับจากต้นฉบับ",
+    "tags": [
+      "Isaac Sim",
+      "ROS 2",
+      "Integration"
+    ],
+    "categories": [
+      "isaac",
+      "ros",
+      "simulation"
+    ],
+    "source": "upstream",
+    "owner": "isaac-sim",
+    "url": "https://github.com/isaac-sim/IsaacSim-ros_workspaces",
+    "upstream": "https://github.com/isaac-sim/IsaacSim-ros_workspaces",
+    "license": "Apache-2.0",
     "verifiedOn": "2026-10-10"
   }
 ]

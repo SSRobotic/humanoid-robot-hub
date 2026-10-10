@@ -44,6 +44,30 @@
     "verifiedOn": "2026-10-10"
   },
   {
+    "id": "Open-X-Humanoid-x-humanoid-vla-simulation-benchmark",
+    "key": "Open-X-Humanoid/x-humanoid-vla-simulation-benchmark",
+    "title": "X-Humanoid VLA Benchmark",
+    "description": "Isaac Sim resources for evaluating vision-language-action policies.",
+    "descriptionTh": "แหล่งข้อมูล Isaac Sim สำหรับประเมิน Policy แบบ VLA",
+    "categories": [
+      "simulation",
+      "vla",
+      "research",
+      "isaac"
+    ],
+    "tags": [
+      "VLA",
+      "Benchmark",
+      "Isaac Sim"
+    ],
+    "source": "upstream",
+    "owner": "Open-X-Humanoid",
+    "url": "https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark",
+    "upstream": "https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark",
+    "license": "See project notices",
+    "verifiedOn": "2026-10-10"
+  },
+  {
     "id": "Physical-Intelligence-openpi",
     "key": "Physical-Intelligence/openpi",
     "title": "OpenPI",
@@ -83,29 +107,6 @@
     "url": "https://github.com/openvla/openvla",
     "upstream": "https://github.com/openvla/openvla",
     "license": "MIT",
-    "verifiedOn": "2026-10-10"
-  },
-  {
-    "id": "Open-X-Humanoid-x-humanoid-vla-simulation-benchmark",
-    "key": "Open-X-Humanoid/x-humanoid-vla-simulation-benchmark",
-    "title": "X-Humanoid VLA Benchmark",
-    "description": "Isaac Sim resources for evaluating vision-language-action policies.",
-    "descriptionTh": "แหล่งข้อมูล Isaac Sim สำหรับประเมิน Policy แบบ VLA",
-    "categories": [
-      "simulation",
-      "vla",
-      "research"
-    ],
-    "tags": [
-      "VLA",
-      "Benchmark",
-      "Isaac Sim"
-    ],
-    "source": "upstream",
-    "owner": "Open-X-Humanoid",
-    "url": "https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark",
-    "upstream": "https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark",
-    "license": "See project notices",
     "verifiedOn": "2026-10-10"
   }
 ]
